@@ -1,0 +1,13 @@
+supplier_id;contractor_name;register_number;address;city;zip_code;buyed_qty
+1;Nogueira S.A.;02.589.476/0001-35;Rua XV de Novembro, 123;Curitiba - PR;80010-000;72
+7;Ramos Vieira e Filhos;21.395.478/0001-38;Avenida Paraná, 456;Londrina - PR;86010-000;447
+5;Das Neves Periféricos;29.175.364/0001-94;Rua Barão do Rio Branco, 1617;Maringa - PR;87010-000;139
+3;Martins - ME;24.170.396/0001-83;Avenida Brasil, 1819;Maringa - PR;87020-000;267
+8;Cardoso S.A.;15.209.783/0001-95;Avenida Visconde de Taunay, 2425,;Ponta-Grossa - PR;84010-000;141
+21;Fernandes Notebooks;01.462.385/0001-71;Rua Balduíno Taques, 2627;Ponta-Grossa - PR;84020-000;408
+19;Ribeiro Cable LTDA;09.328.541/0001-18;Rua da Indústria, 2223;Ponta-Grossa - PR;84030-000;116
+12;Pires Stars Tec S.A;13.960.458/0001-34;Rua Paraná, 3031;Cascavel - PR;85818-000;443
+17;Aragão LTDA;20.439.678/0001-82;Rua Souza Naves, 1213;Londrina - PR;86010-000;68
+22;Martins S.A.;05.273.689/0001-41;Rua Sergipe, 1415;Londrina - PR;86020-000;169
+38;Cardoso Computadores;69.145.730/0001-87;Rua das Flores, 789;Curitiba - PR;80060-000;473
+71;Araújo StarTrek Tek.;52.480.719/0001-70;Rua Rio Grande do Sul, 3233;Cascavel - PR;85815-000;170

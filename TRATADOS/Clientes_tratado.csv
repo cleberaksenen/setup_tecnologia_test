@@ -1,0 +1,138 @@
+id;name;register_number;phone;email;address;city;zip_code;state;country;local;complete_address
+1;Cliente 1;05533520586545;(40) 3401-5150;cliente1@example.com;Rua Tiradentes, 926;Pinhais;54289891;PR;Brasil;Pinhais - PR - Brasil;Rua Tiradentes, 926, Pinhais - PR - Brasil
+2;Cliente 2;61776869155;(56) 4159-1288;cliente2@example.com;Rua Tiradentes, 645;Londrina;38512465;PR;Brasil;Londrina - PR - Brasil;Rua Tiradentes, 645, Londrina - PR - Brasil
+3;Cliente 3;49673738036;(58) 1754-9916;cliente3@example.com;Avenida Brasil, 612;Colombo;83603862;PR;Brasil;Colombo - PR - Brasil;Avenida Brasil, 612, Colombo - PR - Brasil
+4;Cliente 4;25088129389;(57) 3961-6581;cliente4@example.com;Avenida Brasil, 833;Pinhais;13934914;PR;Brasil;Pinhais - PR - Brasil;Avenida Brasil, 833, Pinhais - PR - Brasil
+5;Cliente 5;44825940568;(25) 8624-4927;cliente5@example.com;Rua XV de Novembro, 676;Pinhais;16725112;PR;Brasil;Pinhais - PR - Brasil;Rua XV de Novembro, 676, Pinhais - PR - Brasil
+6;Cliente 6;47627119053;(75) 3151-1305;cliente6@example.com;Rua das Hortansias, 653;Foz do Iguacu;27215579;PR;Brasil;Foz do Iguacu - PR - Brasil;Rua das Hortansias, 653, Foz do Iguacu - PR - Brasil
+7;Cliente 7;70148700000000;(53) 2075-1487;cliente7@example.com;Rua das Hortansias, 441;Foz do Iguacu;28706241;PR;Brasil;Foz do Iguacu - PR - Brasil;Rua das Hortansias, 441, Foz do Iguacu - PR - Brasil
+8;Cliente 8;49706000000000;(46) 7810-2203;cliente8@example.com;Rua Tiradentes, 110;Cascavel;13136297;PR;Brasil;Cascavel - PR - Brasil;Rua Tiradentes, 110, Cascavel - PR - Brasil
+9;Cliente 9;60599884310;(30) 9277-5934;cliente9@example.com;Rua das Flores, 915;Maringa;1789191;PR;Brasil;Maringa - PR - Brasil;Rua das Flores, 915, Maringa - PR - Brasil
+10;Cliente 10;49910000000000;(40) 2868-6877;cliente10@example.com;Rua das Hortansias, 22;Ponta Grossa;80278029;PR;Brasil;Ponta Grossa - PR - Brasil;Rua das Hortansias, 22, Ponta Grossa - PR - Brasil
+11;Cliente 11;23443079319;(57) 8097-4243;cliente11@example.com;Rua das Palmeiras, 9;Cascavel;51878833;PR;Brasil;Cascavel - PR - Brasil;Rua das Palmeiras, 9, Cascavel - PR - Brasil
+12;Cliente 12;34493300000000;(65) 6307-6756;cliente12@example.com;Avenida Brasil, 99;Araucaria;49173667;PR;Brasil;Araucaria - PR - Brasil;Avenida Brasil, 99, Araucaria - PR - Brasil
+13;Cliente 13;20057497083;(77) 3204-7308;cliente13@example.com;Rua das Flores, 417;Ponta Grossa;39707075;PR;Brasil;Ponta Grossa - PR - Brasil;Rua das Flores, 417, Ponta Grossa - PR - Brasil
+14;Cliente 14;93475852993;(22) 2452-6086;cliente14@example.com;Rua das Flores, 253;Sao Jose dos Pinhais;39145912;PR;Brasil;Sao Jose dos Pinhais - PR - Brasil;Rua das Flores, 253, Sao Jose dos Pinhais - PR - Brasil
+15;Cliente 15;72945835891;(58) 5311-6405;cliente15@example.com;Rua das Araucarias, 654;Londrina;23604891;PR;Brasil;Londrina - PR - Brasil;Rua das Araucarias, 654, Londrina - PR - Brasil
+16;Cliente 16;68011100000000;(96) 8563-4184;cliente16@example.com;Rua Tiradentes, 459;Maringa;53395067;PR;Brasil;Maringa - PR - Brasil;Rua Tiradentes, 459, Maringa - PR - Brasil
+17;Cliente 17;52977200000000;(54) 1711-5031;cliente17@example.com;Rua das Flores, 121;Londrina;59934996;PR;Brasil;Londrina - PR - Brasil;Rua das Flores, 121, Londrina - PR - Brasil
+18;Cliente 18;62068151262;(24) 7125-9696;cliente18@example.com;Avenida Marechal Floriano, 95;Foz do Iguacu;53149270;PR;Brasil;Foz do Iguacu - PR - Brasil;Avenida Marechal Floriano, 95, Foz do Iguacu - PR - Brasil
+19;Cliente 19;26340800000000;(59) 8401-7082;cliente19@example.com;Rua das Flores, 839;Pinhais;76907546;PR;Brasil;Pinhais - PR - Brasil;Rua das Flores, 839, Pinhais - PR - Brasil
+20;Cliente 20;74717400000000;(81) 5932-2357;cliente20@example.com;Rua das Araucarias, 600;Ponta Grossa;90815475;PR;Brasil;Ponta Grossa - PR - Brasil;Rua das Araucarias, 600, Ponta Grossa - PR - Brasil
+21;Cliente 21;79458931339;(56) 1850-6435;cliente21@example.com;Avenida Marechal Floriano, 14;Foz do Iguacu;46588856;PR;Brasil;Foz do Iguacu - PR - Brasil;Avenida Marechal Floriano, 14, Foz do Iguacu - PR - Brasil
+22;Cliente 22;20388263570;(27) 5067-1438;cliente22@example.com;Rua Sao Paulo, 671;Sao Jose dos Pinhais;37818466;PR;Brasil;Sao Jose dos Pinhais - PR - Brasil;Rua Sao Paulo, 671, Sao Jose dos Pinhais - PR - Brasil
+23;Cliente 23;29071981402;(64) 5447-4292;cliente23@example.com;Rua das Palmeiras, 56;Ponta Grossa;19100692;PR;Brasil;Ponta Grossa - PR - Brasil;Rua das Palmeiras, 56, Ponta Grossa - PR - Brasil
+24;Cliente 24;34939000000000;(94) 3530-2990;cliente24@example.com;Rua Tiradentes, 463;Foz do Iguacu;60530383;PR;Brasil;Foz do Iguacu - PR - Brasil;Rua Tiradentes, 463, Foz do Iguacu - PR - Brasil
+25;Cliente 25;81079772207;(59) 4688-3096;cliente25@example.com;Rua Tiradentes, 236;Colombo;14033116;PR;Brasil;Colombo - PR - Brasil;Rua Tiradentes, 236, Colombo - PR - Brasil
+26;Cliente 26;15562700000000;(85) 9025-4421;cliente26@example.com;Rua Sao Paulo, 782;Pinhais;21086993;PR;Brasil;Pinhais - PR - Brasil;Rua Sao Paulo, 782, Pinhais - PR - Brasil
+27;Cliente 27;54680828283;(22) 1097-9768;cliente27@example.com;Rua das Hortansias, 831;Londrina;53225106;PR;Brasil;Londrina - PR - Brasil;Rua das Hortansias, 831, Londrina - PR - Brasil
+28;Cliente 28;85285486233;(11) 8364-8256;cliente28@example.com;Rua das Araucarias, 209;Londrina;76855248;PR;Brasil;Londrina - PR - Brasil;Rua das Araucarias, 209, Londrina - PR - Brasil
+29;Cliente 29;53693200000000;(77) 4624-3500;cliente29@example.com;Rua Sao Paulo, 636;Araucaria;68042763;PR;Brasil;Araucaria - PR - Brasil;Rua Sao Paulo, 636, Araucaria - PR - Brasil
+30;Cliente 30;04908663664859;(93) 8729-3888;cliente30@example.com;Rua Sao Paulo, 349;Araucaria;20930141;PR;Brasil;Araucaria - PR - Brasil;Rua Sao Paulo, 349, Araucaria - PR - Brasil
+31;Cliente 31;63021294312;(21) 2048-3401;cliente31@example.com;Rua das Flores, 456;Curitiba;42620180;PR;Brasil;Curitiba - PR - Brasil;Rua das Flores, 456, Curitiba - PR - Brasil
+32;Cliente 32;77635600000000;(69) 2380-2303;cliente32@example.com;Rua Tiradentes, 989;Araucaria;75246808;PR;Brasil;Araucaria - PR - Brasil;Rua Tiradentes, 989, Araucaria - PR - Brasil
+33;Cliente 33;96808300000000;(77) 5524-4065;cliente33@example.com;Avenida Marechal Floriano, 601;Curitiba;56635471;PR;Brasil;Curitiba - PR - Brasil;Avenida Marechal Floriano, 601, Curitiba - PR - Brasil
+34;Cliente 34;21263283385;(58) 1875-3089;cliente34@example.com;Rua das Hortansias, 582;Sao Jose dos Pinhais;94888682;PR;Brasil;Sao Jose dos Pinhais - PR - Brasil;Rua das Hortansias, 582, Sao Jose dos Pinhais - PR - Brasil
+35;Cliente 35;17051400000000;(96) 3874-4660;cliente35@example.com;Rua dos Ipes, 675;Curitiba;57001937;PR;Brasil;Curitiba - PR - Brasil;Rua dos Ipes, 675, Curitiba - PR - Brasil
+36;Cliente 36;08804605726259;(12) 4523-2448;cliente36@example.com;Rua das Flores, 563;Colombo;5258977;PR;Brasil;Colombo - PR - Brasil;Rua das Flores, 563, Colombo - PR - Brasil
+37;Cliente 37;55635700000000;(57) 9763-3470;cliente37@example.com;Rua das Hortansias, 867;Ponta Grossa;64517322;PR;Brasil;Ponta Grossa - PR - Brasil;Rua das Hortansias, 867, Ponta Grossa - PR - Brasil
+38;Cliente 38;14045900000000;(44) 3127-5526;cliente38@example.com;Rua das Araucarias, 198;Maringa;42574628;PR;Brasil;Maringa - PR - Brasil;Rua das Araucarias, 198, Maringa - PR - Brasil
+39;Cliente 39;89922400000000;(51) 6995-5676;cliente39@example.com;Rua dos Ipes, 863;Sao Jose dos Pinhais;51512256;PR;Brasil;Sao Jose dos Pinhais - PR - Brasil;Rua dos Ipes, 863, Sao Jose dos Pinhais - PR - Brasil
+40;Cliente 40;86757642435;(76) 3807-8511;cliente40@example.com;Avenida Brasil, 81;Londrina;71730819;PR;Brasil;Londrina - PR - Brasil;Avenida Brasil, 81, Londrina - PR - Brasil
+41;Cliente 41;05241401736;(90) 3337-2965;cliente41@example.com;Rua das Hortansias, 368;Foz do Iguacu;75635963;PR;Brasil;Foz do Iguacu - PR - Brasil;Rua das Hortansias, 368, Foz do Iguacu - PR - Brasil
+42;Cliente 42;77708209834;(82) 1704-7800;cliente42@example.com;Avenida Brasil, 989;Maringa;19740086;PR;Brasil;Maringa - PR - Brasil;Avenida Brasil, 989, Maringa - PR - Brasil
+43;Cliente 43;97320900000000;(31) 8246-4675;cliente43@example.com;Rua XV de Novembro, 121;Maringa;48335327;PR;Brasil;Maringa - PR - Brasil;Rua XV de Novembro, 121, Maringa - PR - Brasil
+44;Cliente 44;62291126814;(78) 5651-4309;cliente44@example.com;Rua dos Ipes, 820;Sao Jose dos Pinhais;95909285;PR;Brasil;Sao Jose dos Pinhais - PR - Brasil;Rua dos Ipes, 820, Sao Jose dos Pinhais - PR - Brasil
+45;Cliente 45;58086300000000;(73) 1657-5552;cliente45@example.com;Rua Sao Paulo, 883;Cascavel;83174729;PR;Brasil;Cascavel - PR - Brasil;Rua Sao Paulo, 883, Cascavel - PR - Brasil
+46;Cliente 46;23694246126;(57) 2203-1068;cliente46@example.com;Avenida Brasil, 579;Sao Jose dos Pinhais;67171053;PR;Brasil;Sao Jose dos Pinhais - PR - Brasil;Avenida Brasil, 579, Sao Jose dos Pinhais - PR - Brasil
+47;Cliente 47;39843072484;(49) 9077-1377;cliente47@example.com;Rua XV de Novembro, 933;Londrina;67043445;PR;Brasil;Londrina - PR - Brasil;Rua XV de Novembro, 933, Londrina - PR - Brasil
+48;Cliente 48;42681147612;(16) 3488-3520;cliente48@example.com;Avenida Brasil, 34;Araucaria;13698868;PR;Brasil;Araucaria - PR - Brasil;Avenida Brasil, 34, Araucaria - PR - Brasil
+49;Cliente 49;39044488341;(77) 1228-1884;cliente49@example.com;Rua Tiradentes, 837;Pinhais;19636784;PR;Brasil;Pinhais - PR - Brasil;Rua Tiradentes, 837, Pinhais - PR - Brasil
+50;Cliente 50;82292569604;(71) 8961-5665;cliente50@example.com;Rua das Hortansias, 648;Araucaria;29724813;PR;Brasil;Araucaria - PR - Brasil;Rua das Hortansias, 648, Araucaria - PR - Brasil
+51;Cliente 51;95310000000000;(46) 7743-4392;cliente51@example.com;Rua das Araucarias, 884;Sao Jose dos Pinhais;909583;PR;Brasil;Sao Jose dos Pinhais - PR - Brasil;Rua das Araucarias, 884, Sao Jose dos Pinhais - PR - Brasil
+52;Cliente 52;44996800000000;(32) 5089-8453;cliente52@example.com;Rua XV de Novembro, 502;Maringa;67141712;PR;Brasil;Maringa - PR - Brasil;Rua XV de Novembro, 502, Maringa - PR - Brasil
+53;Cliente 53;87006500000000;(70) 5530-5016;cliente53@example.com;Rua Sao Paulo, 682;Colombo;39111703;PR;Brasil;Colombo - PR - Brasil;Rua Sao Paulo, 682, Colombo - PR - Brasil
+54;Cliente 54;96873967173;(79) 4923-8075;cliente54@example.com;Avenida Marechal Floriano, 90;Colombo;4020841;PR;Brasil;Colombo - PR - Brasil;Avenida Marechal Floriano, 90, Colombo - PR - Brasil
+55;Cliente 55;34769900000000;(49) 2008-1698;cliente55@example.com;Avenida Marechal Floriano, 60;Londrina;63402581;PR;Brasil;Londrina - PR - Brasil;Avenida Marechal Floriano, 60, Londrina - PR - Brasil
+56;Cliente 56;91791800000000;(75) 4483-5708;cliente56@example.com;Rua das Hortansias, 33;Araucaria;90609927;PR;Brasil;Araucaria - PR - Brasil;Rua das Hortansias, 33, Araucaria - PR - Brasil
+57;Cliente 57;66727300000000;(76) 5464-7064;cliente57@example.com;Rua das Araucarias, 549;Cascavel;17062674;PR;Brasil;Cascavel - PR - Brasil;Rua das Araucarias, 549, Cascavel - PR - Brasil
+58;Cliente 58;25434153986;(51) 9707-3016;cliente58@example.com;Rua Sao Paulo, 842;Ponta Grossa;35593571;PR;Brasil;Ponta Grossa - PR - Brasil;Rua Sao Paulo, 842, Ponta Grossa - PR - Brasil
+59;Cliente 59;06274328197;(37) 1229-4615;cliente59@example.com;Rua dos Ipes, 488;Foz do Iguacu;68195121;PR;Brasil;Foz do Iguacu - PR - Brasil;Rua dos Ipes, 488, Foz do Iguacu - PR - Brasil
+60;Cliente 60;19959418398;(35) 2386-3735;cliente60@example.com;Rua das Palmeiras, 546;Londrina;98879449;PR;Brasil;Londrina - PR - Brasil;Rua das Palmeiras, 546, Londrina - PR - Brasil
+61;Cliente 61;77394700000000;(59) 7376-7817;cliente61@example.com;Avenida Brasil, 203;Maringa;47741489;PR;Brasil;Maringa - PR - Brasil;Avenida Brasil, 203, Maringa - PR - Brasil
+62;Cliente 62;82540500000000;(25) 1715-3807;cliente62@example.com;Rua das Hortansias, 597;Ponta Grossa;15078914;PR;Brasil;Ponta Grossa - PR - Brasil;Rua das Hortansias, 597, Ponta Grossa - PR - Brasil
+63;Cliente 63;05387586043087;(77) 5157-3090;cliente63@example.com;Rua das Palmeiras, 854;Sao Jose dos Pinhais;26839314;PR;Brasil;Sao Jose dos Pinhais - PR - Brasil;Rua das Palmeiras, 854, Sao Jose dos Pinhais - PR - Brasil
+64;Cliente 64;05073432175;(29) 2241-2260;cliente64@example.com;Avenida Marechal Floriano, 251;Maringa;27506698;PR;Brasil;Maringa - PR - Brasil;Avenida Marechal Floriano, 251, Maringa - PR - Brasil
+65;Cliente 65;67190500000000;(60) 1068-9765;cliente65@example.com;Avenida Brasil, 83;Londrina;10962328;PR;Brasil;Londrina - PR - Brasil;Avenida Brasil, 83, Londrina - PR - Brasil
+66;Cliente 66;04089181334532;(13) 3887-2406;cliente66@example.com;Rua Sao Paulo, 917;Maringa;34005543;PR;Brasil;Maringa - PR - Brasil;Rua Sao Paulo, 917, Maringa - PR - Brasil
+67;Cliente 67;33765300000000;(52) 2155-9492;cliente67@example.com;Rua Sao Paulo, 467;Colombo;14861617;PR;Brasil;Colombo - PR - Brasil;Rua Sao Paulo, 467, Colombo - PR - Brasil
+68;Cliente 68;03155748395;(89) 5031-1907;cliente68@example.com;Rua dos Ipes, 231;Maringa;30424246;PR;Brasil;Maringa - PR - Brasil;Rua dos Ipes, 231, Maringa - PR - Brasil
+69;Cliente 69;44827000000000;(62) 8496-1277;cliente69@example.com;Rua Tiradentes, 863;Araucaria;78755329;PR;Brasil;Araucaria - PR - Brasil;Rua Tiradentes, 863, Araucaria - PR - Brasil
+70;Cliente 70;71719546505;(89) 7202-6781;cliente70@example.com;Rua dos Ipes, 216;Ponta Grossa;81909408;PR;Brasil;Ponta Grossa - PR - Brasil;Rua dos Ipes, 216, Ponta Grossa - PR - Brasil
+71;Cliente 71;57764871450;(49) 5272-5142;cliente71@example.com;Rua XV de Novembro, 667;Foz do Iguacu;43666479;PR;Brasil;Foz do Iguacu - PR - Brasil;Rua XV de Novembro, 667, Foz do Iguacu - PR - Brasil
+72;Cliente 72;19290800000000;(84) 8963-2892;cliente72@example.com;Rua das Flores, 416;Cascavel;47048981;PR;Brasil;Cascavel - PR - Brasil;Rua das Flores, 416, Cascavel - PR - Brasil
+73;Cliente 73;12860800000000;(48) 3361-6790;cliente73@example.com;Rua das Palmeiras, 413;Ponta Grossa;31984956;PR;Brasil;Ponta Grossa - PR - Brasil;Rua das Palmeiras, 413, Ponta Grossa - PR - Brasil
+74;Cliente 74;15642009188;(62) 3280-4955;cliente74@example.com;Rua Tiradentes, 684;Cascavel;31401176;PR;Brasil;Cascavel - PR - Brasil;Rua Tiradentes, 684, Cascavel - PR - Brasil
+75;Cliente 75;83049743635;(17) 1504-8286;cliente75@example.com;Rua dos Ipes, 602;Colombo;62612583;PR;Brasil;Colombo - PR - Brasil;Rua dos Ipes, 602, Colombo - PR - Brasil
+76;Cliente 76;94986918309;(44) 7577-2915;cliente76@example.com;Rua das Hortansias, 147;Curitiba;83628801;PR;Brasil;Curitiba - PR - Brasil;Rua das Hortansias, 147, Curitiba - PR - Brasil
+77;Cliente 77;46401500000000;(94) 3158-4956;cliente77@example.com;Rua das Palmeiras, 431;Sao Jose dos Pinhais;49731120;PR;Brasil;Sao Jose dos Pinhais - PR - Brasil;Rua das Palmeiras, 431, Sao Jose dos Pinhais - PR - Brasil
+78;Cliente 78;97492500000000;(44) 7723-8040;cliente78@example.com;Rua Sao Paulo, 703;Araucaria;44126555;PR;Brasil;Araucaria - PR - Brasil;Rua Sao Paulo, 703, Araucaria - PR - Brasil
+79;Cliente 79;54061132710;(13) 5569-7334;cliente79@example.com;Rua das Flores, 785;Ponta Grossa;81995053;PR;Brasil;Ponta Grossa - PR - Brasil;Rua das Flores, 785, Ponta Grossa - PR - Brasil
+80;Cliente 80;52732400000000;(99) 9933-9672;cliente80@example.com;Rua dos Ipes, 792;Londrina;73490402;PR;Brasil;Londrina - PR - Brasil;Rua dos Ipes, 792, Londrina - PR - Brasil
+81;Cliente 81;33624400000000;(66) 6150-4093;cliente81@example.com;Rua Sao Paulo, 206;Pinhais;87206156;PR;Brasil;Pinhais - PR - Brasil;Rua Sao Paulo, 206, Pinhais - PR - Brasil
+82;Cliente 82;26818622770;(97) 9747-6576;cliente82@example.com;Avenida Marechal Floriano, 738;Pinhais;18055037;PR;Brasil;Pinhais - PR - Brasil;Avenida Marechal Floriano, 738, Pinhais - PR - Brasil
+83;Cliente 83;21598225575;(21) 9457-9363;cliente83@example.com;Rua Tiradentes, 38;Londrina;30873590;PR;Brasil;Londrina - PR - Brasil;Rua Tiradentes, 38, Londrina - PR - Brasil
+84;Cliente 84;97318432298;(13) 5007-9113;cliente84@example.com;Avenida Marechal Floriano, 667;Londrina;53479494;PR;Brasil;Londrina - PR - Brasil;Avenida Marechal Floriano, 667, Londrina - PR - Brasil
+85;Cliente 85;97933708423;(48) 5405-2372;cliente85@example.com;Rua das Palmeiras, 811;Maringa;4876886;PR;Brasil;Maringa - PR - Brasil;Rua das Palmeiras, 811, Maringa - PR - Brasil
+86;Cliente 86;38418100000000;(44) 2567-3155;cliente86@example.com;Rua Sao Paulo, 995;Colombo;73765374;PR;Brasil;Colombo - PR - Brasil;Rua Sao Paulo, 995, Colombo - PR - Brasil
+87;Cliente 87;63154300978;(62) 7415-9188;cliente87@example.com;Rua dos Ipes, 120;Sao Jose dos Pinhais;81032805;PR;Brasil;Sao Jose dos Pinhais - PR - Brasil;Rua dos Ipes, 120, Sao Jose dos Pinhais - PR - Brasil
+88;Cliente 88;09659427504;(43) 7246-7610;cliente88@example.com;Rua Tiradentes, 646;Curitiba;8207390;PR;Brasil;Curitiba - PR - Brasil;Rua Tiradentes, 646, Curitiba - PR - Brasil
+89;Cliente 89;05467439584066;(15) 7068-5710;cliente89@example.com;Rua das Palmeiras, 820;Curitiba;32595583;PR;Brasil;Curitiba - PR - Brasil;Rua das Palmeiras, 820, Curitiba - PR - Brasil
+90;Cliente 90;01652305544618;(15) 5667-1594;cliente90@example.com;Rua Sao Paulo, 625;Foz do Iguacu;93710883;PR;Brasil;Foz do Iguacu - PR - Brasil;Rua Sao Paulo, 625, Foz do Iguacu - PR - Brasil
+91;Cliente 91;42444463890;(19) 7504-9342;cliente91@example.com;Avenida Marechal Floriano, 275;Pinhais;28110860;PR;Brasil;Pinhais - PR - Brasil;Avenida Marechal Floriano, 275, Pinhais - PR - Brasil
+92;Cliente 92;92768020101;(89) 8459-5520;cliente92@example.com;Rua das Flores, 733;Cascavel;37389666;PR;Brasil;Cascavel - PR - Brasil;Rua das Flores, 733, Cascavel - PR - Brasil
+93;Cliente 93;16660800000000;(35) 7558-7621;cliente93@example.com;Rua Tiradentes, 713;Colombo;74410176;PR;Brasil;Colombo - PR - Brasil;Rua Tiradentes, 713, Colombo - PR - Brasil
+94;Cliente 94;06934060870993;(82) 7904-5215;cliente94@example.com;Avenida Brasil, 917;Colombo;71685643;PR;Brasil;Colombo - PR - Brasil;Avenida Brasil, 917, Colombo - PR - Brasil
+95;Cliente 95;41621100000000;(28) 9895-3595;cliente95@example.com;Rua das Flores, 547;Ponta Grossa;91344055;PR;Brasil;Ponta Grossa - PR - Brasil;Rua das Flores, 547, Ponta Grossa - PR - Brasil
+96;Cliente 96;78848900000000;(57) 3704-5365;cliente96@example.com;Rua das Hortansias, 201;Pinhais;42996627;PR;Brasil;Pinhais - PR - Brasil;Rua das Hortansias, 201, Pinhais - PR - Brasil
+97;Cliente 97;89368327660;(90) 1879-4832;cliente97@example.com;Rua Tiradentes, 926;Foz do Iguacu;50294317;PR;Brasil;Foz do Iguacu - PR - Brasil;Rua Tiradentes, 926, Foz do Iguacu - PR - Brasil
+98;Cliente 98;74374700000000;(59) 5348-6209;cliente98@example.com;Avenida Marechal Floriano, 982;Colombo;69550013;PR;Brasil;Colombo - PR - Brasil;Avenida Marechal Floriano, 982, Colombo - PR - Brasil
+99;Cliente 99;78016900000000;(65) 2584-4892;cliente99@example.com;Rua dos Ipes, 240;Ponta Grossa;45736748;PR;Brasil;Ponta Grossa - PR - Brasil;Rua dos Ipes, 240, Ponta Grossa - PR - Brasil
+100;Cliente 100;59156200000000;(44) 5662-2675;cliente100@example.com;Rua das Flores, 926;Cascavel;47013987;PR;Brasil;Cascavel - PR - Brasil;Rua das Flores, 926, Cascavel - PR - Brasil
+101;Cliente 101;64425306519;(59) 8194-2371;cliente101@example.com;Rua dos Ipes, 145;Foz do Iguacu;4954136;PR;Brasil;Foz do Iguacu - PR - Brasil;Rua dos Ipes, 145, Foz do Iguacu - PR - Brasil
+102;Cliente 102;69470500000000;(41) 1661-2916;cliente102@example.com;Rua XV de Novembro, 696;Foz do Iguacu;81230837;PR;Brasil;Foz do Iguacu - PR - Brasil;Rua XV de Novembro, 696, Foz do Iguacu - PR - Brasil
+103;Cliente 103;59955200000000;(91) 4199-9851;cliente103@example.com;Rua dos Ipes, 690;Cascavel;14762568;PR;Brasil;Cascavel - PR - Brasil;Rua dos Ipes, 690, Cascavel - PR - Brasil
+104;Cliente 104;41782874550;(46) 3732-8616;cliente104@example.com;Avenida Brasil, 66;Sao Jose dos Pinhais;10163044;PR;Brasil;Sao Jose dos Pinhais - PR - Brasil;Avenida Brasil, 66, Sao Jose dos Pinhais - PR - Brasil
+105;Cliente 105;68419450135;(65) 8544-3064;cliente105@example.com;Avenida Marechal Floriano, 472;Cascavel;48564756;PR;Brasil;Cascavel - PR - Brasil;Avenida Marechal Floriano, 472, Cascavel - PR - Brasil
+106;Cliente 106;39347004522;(17) 6532-7196;cliente106@example.com;Rua das Flores, 178;Londrina;95598184;PR;Brasil;Londrina - PR - Brasil;Rua das Flores, 178, Londrina - PR - Brasil
+107;Cliente 107;80824500000000;(15) 1746-8151;cliente107@example.com;Avenida Marechal Floriano, 741;Cascavel;62952196;PR;Brasil;Cascavel - PR - Brasil;Avenida Marechal Floriano, 741, Cascavel - PR - Brasil
+108;Cliente 108;26977200000000;(85) 2631-9298;cliente108@example.com;Rua XV de Novembro, 755;Araucaria;73516923;PR;Brasil;Araucaria - PR - Brasil;Rua XV de Novembro, 755, Araucaria - PR - Brasil
+109;Cliente 109;79817100000000;(36) 7696-6015;cliente109@example.com;Rua XV de Novembro, 532;Maringa;85128442;PR;Brasil;Maringa - PR - Brasil;Rua XV de Novembro, 532, Maringa - PR - Brasil
+110;Cliente 110;72345764098;(59) 1509-1462;cliente110@example.com;Rua Tiradentes, 1000;Colombo;32877569;PR;Brasil;Colombo - PR - Brasil;Rua Tiradentes, 1000, Colombo - PR - Brasil
+111;Cliente 111;92208600000000;(66) 8067-4972;cliente111@example.com;Rua XV de Novembro, 853;Ponta Grossa;7488407;PR;Brasil;Ponta Grossa - PR - Brasil;Rua XV de Novembro, 853, Ponta Grossa - PR - Brasil
+112;Cliente 112;21177398077;(92) 2350-1145;cliente112@example.com;Rua das Palmeiras, 373;Ponta Grossa;52344835;PR;Brasil;Ponta Grossa - PR - Brasil;Rua das Palmeiras, 373, Ponta Grossa - PR - Brasil
+113;Cliente 113;85923200000000;(52) 2814-5498;cliente113@example.com;Rua XV de Novembro, 230;Maringa;82918201;PR;Brasil;Maringa - PR - Brasil;Rua XV de Novembro, 230, Maringa - PR - Brasil
+114;Cliente 114;50303219861;(93) 6792-5376;cliente114@example.com;Rua Sao Paulo, 820;Curitiba;38496617;PR;Brasil;Curitiba - PR - Brasil;Rua Sao Paulo, 820, Curitiba - PR - Brasil
+115;Cliente 115;91276289166;(33) 9568-7486;cliente115@example.com;Rua das Flores, 655;Maringa;39199769;PR;Brasil;Maringa - PR - Brasil;Rua das Flores, 655, Maringa - PR - Brasil
+116;Cliente 116;66203756029;(51) 8730-1494;cliente116@example.com;Rua das Hortansias, 57;Colombo;82724942;PR;Brasil;Colombo - PR - Brasil;Rua das Hortansias, 57, Colombo - PR - Brasil
+117;Cliente 117;70657015480;(21) 3492-4002;cliente117@example.com;Rua Tiradentes, 252;Londrina;96679306;PR;Brasil;Londrina - PR - Brasil;Rua Tiradentes, 252, Londrina - PR - Brasil
+118;Cliente 118;48782554833;(77) 5722-7138;cliente118@example.com;Rua das Araucarias, 452;Colombo;27100022;PR;Brasil;Colombo - PR - Brasil;Rua das Araucarias, 452, Colombo - PR - Brasil
+119;Cliente 119;49689800000000;(94) 5349-3334;cliente119@example.com;Rua XV de Novembro, 376;Maringa;95781331;PR;Brasil;Maringa - PR - Brasil;Rua XV de Novembro, 376, Maringa - PR - Brasil
+120;Cliente 120;82986999452;(89) 8248-7485;cliente120@example.com;Rua das Araucarias, 589;Sao Jose dos Pinhais;26053292;PR;Brasil;Sao Jose dos Pinhais - PR - Brasil;Rua das Araucarias, 589, Sao Jose dos Pinhais - PR - Brasil
+121;Cliente 121;35905188061;(79) 3790-7647;cliente121@example.com;Rua das Araucarias, 993;Maringa;2368077;PR;Brasil;Maringa - PR - Brasil;Rua das Araucarias, 993, Maringa - PR - Brasil
+122;Cliente 122;50397800000000;(27) 3627-2541;cliente122@example.com;Rua XV de Novembro, 175;Curitiba;2007605;PR;Brasil;Curitiba - PR - Brasil;Rua XV de Novembro, 175, Curitiba - PR - Brasil
+123;Cliente 123;06699075032;(74) 5972-7912;cliente123@example.com;Avenida Brasil, 973;Colombo;44376446;PR;Brasil;Colombo - PR - Brasil;Avenida Brasil, 973, Colombo - PR - Brasil
+124;Cliente 124;95291971984;(86) 2009-7745;cliente124@example.com;Rua das Hortansias, 662;Pinhais;29214150;PR;Brasil;Pinhais - PR - Brasil;Rua das Hortansias, 662, Pinhais - PR - Brasil
+125;Cliente 125;04469679934;(18) 3730-5900;cliente125@example.com;Rua dos Ipes, 389;Araucaria;99981095;PR;Brasil;Araucaria - PR - Brasil;Rua dos Ipes, 389, Araucaria - PR - Brasil
+126;Cliente 126;94328100000000;(13) 3826-8512;cliente126@example.com;Avenida Brasil, 221;Pinhais;54741912;PR;Brasil;Pinhais - PR - Brasil;Avenida Brasil, 221, Pinhais - PR - Brasil
+127;Cliente 127;60920900000000;(77) 9332-1307;cliente127@example.com;Rua dos Ipes, 208;Curitiba;44032081;PR;Brasil;Curitiba - PR - Brasil;Rua dos Ipes, 208, Curitiba - PR - Brasil
+128;Cliente 128;65794700000000;(22) 4436-1108;cliente128@example.com;Avenida Marechal Floriano, 472;Ponta Grossa;68226842;PR;Brasil;Ponta Grossa - PR - Brasil;Avenida Marechal Floriano, 472, Ponta Grossa - PR - Brasil
+129;Cliente 129;78971053413;(66) 1951-3377;cliente129@example.com;Rua das Hortansias, 384;Cascavel;39742508;PR;Brasil;Cascavel - PR - Brasil;Rua das Hortansias, 384, Cascavel - PR - Brasil
+130;Cliente 130;02023137331;(90) 1059-2325;cliente130@example.com;Rua das Flores, 26;Maringa;12913353;PR;Brasil;Maringa - PR - Brasil;Rua das Flores, 26, Maringa - PR - Brasil
+131;Cliente 131;32332900000000;(44) 3366-3337;cliente131@example.com;Rua Sao Paulo, 801;Pinhais;55097642;PR;Brasil;Pinhais - PR - Brasil;Rua Sao Paulo, 801, Pinhais - PR - Brasil
+132;Cliente 132;02687030526;(87) 8952-3744;cliente132@example.com;Avenida Brasil, 576;Pinhais;48917734;PR;Brasil;Pinhais - PR - Brasil;Avenida Brasil, 576, Pinhais - PR - Brasil
+133;Cliente 133;31368305604;(28) 8643-8356;cliente133@example.com;Rua Sao Paulo, 9;Maringa;53732437;PR;Brasil;Maringa - PR - Brasil;Rua Sao Paulo, 9, Maringa - PR - Brasil
+134;Cliente 134;47066202203;(55) 4114-1991;cliente134@example.com;Rua das Palmeiras, 883;Foz do Iguacu;92086797;PR;Brasil;Foz do Iguacu - PR - Brasil;Rua das Palmeiras, 883, Foz do Iguacu - PR - Brasil
+135;Cliente 135;83767700000000;(94) 4651-2205;cliente135@example.com;Rua das Araucarias, 933;Colombo;56938961;PR;Brasil;Colombo - PR - Brasil;Rua das Araucarias, 933, Colombo - PR - Brasil
+136;Cliente 136;30586100000000;(32) 9388-1401;cliente136@example.com;Rua das Araucarias, 793;Foz do Iguacu;89376706;PR;Brasil;Foz do Iguacu - PR - Brasil;Rua das Araucarias, 793, Foz do Iguacu - PR - Brasil
+137;Cliente 137;75832100000000;(17) 7535-5009;cliente137@example.com;Rua das Hortansias, 741;Araucaria;4461272;PR;Brasil;Araucaria - PR - Brasil;Rua das Hortansias, 741, Araucaria - PR - Brasil
