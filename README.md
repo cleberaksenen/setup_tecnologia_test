@@ -75,6 +75,9 @@ python ./scripts/setup_mysql_database.py
 ```
 python ./scripts/import_data.py
 ```
+![alt text](./dashboard/imagens/bdmysql.png)
+
+
 
 #### 📊 Passo 04 - Conexão com Power BI
 
@@ -86,3 +89,7 @@ python ./scripts/import_data.py
 
 #### 🚀 Passo 05 - Deploy e Compartilhamento 
 - Foi realizado o upload do projeto neste GitHub.
+
+
+#### Créditos:
+- Esse projeto foi desenvolvido por Cleber Furtado Aksenen

@@ -1,0 +1,87 @@
+{
+  "version": "1.1.0",
+  "diagrams": [
+    {
+      "ordinal": 0,
+      "scrollPosition": {
+        "x": 0,
+        "y": 0
+      },
+      "nodes": [
+        {
+          "location": {
+            "x": 50,
+            "y": -50
+          },
+          "nodeIndex": "setup_tecnologia clientes",
+          "nodeLineageTag": "c5312f39-e2d0-42dd-bef5-db82a1fb653d",
+          "size": {
+            "height": 272,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 908.3808833393341,
+            "y": 29.601892347795683
+          },
+          "nodeIndex": "setup_tecnologia estoque",
+          "nodeLineageTag": "d869f6f8-e409-461a-b216-55ed767f6a22",
+          "size": {
+            "height": 176,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 908.33871298943609,
+            "y": 260.95967478654688
+          },
+          "nodeIndex": "setup_tecnologia fornecedores",
+          "nodeLineageTag": "0ec8a32e-2da8-46fa-a0dd-632a14f6af4d",
+          "size": {
+            "height": 272,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 618.45173157378258,
+            "y": 76.423075305496013
+          },
+          "nodeIndex": "setup_tecnologia produtos",
+          "nodeLineageTag": "e952571b-a68c-4d71-8799-fbe740eb84d1",
+          "size": {
+            "height": 200,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 334.21842018303988,
+            "y": 11.697727016583372
+          },
+          "nodeIndex": "setup_tecnologia vendas",
+          "nodeLineageTag": "2897b552-6ebc-4238-a3c2-6e0af5f91707",
+          "size": {
+            "height": 224,
+            "width": 234
+          },
+          "zIndex": 0
+        }
+      ],
+      "name": "Todas as tabelas",
+      "zoomValue": 100,
+      "pinKeyFieldsToTop": false,
+      "showExtraHeaderInfo": false,
+      "hideKeyFieldsWhenCollapsed": false,
+      "tablesLocked": false
+    }
+  ],
+  "selectedDiagram": "Todas as tabelas",
+  "defaultDiagram": "Todas as tabelas"
+}

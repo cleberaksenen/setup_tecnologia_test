@@ -1,0 +1,111 @@
+table 'setup_tecnologia clientes'
+	lineageTag: c5312f39-e2d0-42dd-bef5-db82a1fb653d
+
+	column id
+		dataType: int64
+		formatString: 0
+		lineageTag: fb22334d-81a8-48a6-95c0-2dd0f154cbb3
+		summarizeBy: none
+		sourceColumn: id
+
+		annotation SummarizationSetBy = Automatic
+
+	column name
+		dataType: string
+		lineageTag: cf35abaa-49c2-41cd-9adc-ba498210d3fb
+		summarizeBy: none
+		sourceColumn: name
+
+		annotation SummarizationSetBy = Automatic
+
+	column register_number
+		dataType: string
+		lineageTag: 4d71f2e3-f6e5-4a10-9621-dc45b62b27b5
+		summarizeBy: none
+		sourceColumn: register_number
+
+		annotation SummarizationSetBy = Automatic
+
+	column phone
+		dataType: string
+		lineageTag: a8fb239e-9f22-45cb-a80f-1c70583a2856
+		summarizeBy: none
+		sourceColumn: phone
+
+		annotation SummarizationSetBy = Automatic
+
+	column email
+		dataType: string
+		lineageTag: 4a6315f8-01a2-4839-afcd-22a1894572ea
+		summarizeBy: none
+		sourceColumn: email
+
+		annotation SummarizationSetBy = Automatic
+
+	column address
+		dataType: string
+		lineageTag: 6e55c113-a514-4107-a259-5b1901c4815e
+		summarizeBy: none
+		sourceColumn: address
+
+		annotation SummarizationSetBy = Automatic
+
+	column city
+		dataType: string
+		lineageTag: ede1f9f0-7e2c-40f5-ba73-331a3bbef3f3
+		summarizeBy: none
+		sourceColumn: city
+
+		annotation SummarizationSetBy = Automatic
+
+	column zip_code
+		dataType: string
+		lineageTag: b0d32317-1c2a-49a5-8f3c-45da80b3d9f9
+		summarizeBy: none
+		sourceColumn: zip_code
+
+		annotation SummarizationSetBy = Automatic
+
+	column state
+		dataType: string
+		lineageTag: 0256de63-5cc3-4507-9cc5-0e4f327eb43d
+		summarizeBy: none
+		sourceColumn: state
+
+		annotation SummarizationSetBy = Automatic
+
+	column country
+		dataType: string
+		lineageTag: 539e30af-4177-4234-ae6e-7a49f8c25f30
+		summarizeBy: none
+		sourceColumn: country
+
+		annotation SummarizationSetBy = Automatic
+
+	column local
+		dataType: string
+		lineageTag: a4f32e83-056b-45b0-8c6d-967db1d31cee
+		summarizeBy: none
+		sourceColumn: local
+
+		annotation SummarizationSetBy = Automatic
+
+	column complete_address
+		dataType: string
+		lineageTag: b731ce29-a5a2-419e-b050-0e09a42fb2eb
+		summarizeBy: none
+		sourceColumn: complete_address
+
+		annotation SummarizationSetBy = Automatic
+
+	partition 'setup_tecnologia clientes' = m
+		mode: import
+		source =
+				let
+				    Fonte = MySQL.Database("localhost", "setup_tecnologia", [ReturnSingleDatabase=true]),
+				    setup_tecnologia_clientes = Fonte{[Schema="setup_tecnologia",Item="clientes"]}[Data]
+				in
+				    setup_tecnologia_clientes
+
+	annotation PBI_ResultType = Table
+

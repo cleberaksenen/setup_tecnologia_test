@@ -1,0 +1,27 @@
+model Model
+	culture: pt-BR
+	defaultPowerBIDataSourceVersion: powerBI_V3
+	sourceQueryCulture: pt-BR
+	dataAccessOptions
+		legacyRedirects
+		returnErrorValuesAsNull
+
+annotation PBI_QueryOrder = ["setup_tecnologia clientes","setup_tecnologia estoque","setup_tecnologia fornecedores","setup_tecnologia produtos","setup_tecnologia vendas"]
+
+annotation __PBI_TimeIntelligenceEnabled = 1
+
+annotation PBIDesktopVersion = 2.140.1577.0 (25.02)+00af0910c5ca19a229c472b0dfc17a2c488f6b0a
+
+annotation PBI_ProTooling = ["DevMode"]
+
+ref table 'setup_tecnologia clientes'
+ref table 'setup_tecnologia estoque'
+ref table DateTableTemplate_ffe06e50-3a1e-40de-b935-a7515190902b
+ref table LocalDateTable_408f2583-372a-414d-871b-126cb1cd1c05
+ref table 'setup_tecnologia fornecedores'
+ref table 'setup_tecnologia produtos'
+ref table 'setup_tecnologia vendas'
+ref table LocalDateTable_1e3e2618-a4ac-4717-8b5f-0c37cbac7748
+
+ref cultureInfo pt-BR
+

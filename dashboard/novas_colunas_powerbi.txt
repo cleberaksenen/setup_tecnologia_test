@@ -1,26 +1,4 @@
 ```
-Faturamento_Por_Categoria = 
-VAR TotalFaturamentoCategoria = 
-    CALCULATE(
-        SUM('setup_tecnologia vendas'[total_value]), 
-        ALLEXCEPT('setup_tecnologia vendas', 'setup_tecnologia produtos'[category])
-    )
-RETURN
-TotalFaturamentoCategoria
-```
-
-```
-Faturamento_Por_Produto = 
-VAR TotalFaturamentoPoduto = 
-    CALCULATE(
-        SUM('setup_tecnologia vendas'[total_value]), 
-        ALLEXCEPT('setup_tecnologia vendas', 'setup_tecnologia produtos'[product_name])
-    )
-RETURN
-TotalFaturamentoPoduto
-```
-
-```
 Compras_Por_Cliente = 
 VAR TotalComprasCliente = 
     CALCULATE(
@@ -29,6 +7,39 @@ VAR TotalComprasCliente =
     )
 RETURN
 TotalComprasCliente
+
+```
+```
+Faturamento_Por_Categoria = 
+VAR FaturamentoCategoria = 
+    CALCULATE(
+        SUM('setup_tecnologia vendas'[total_value]), 
+        ALLEXCEPT('setup_tecnologia vendas', 'setup_tecnologia produtos'[category])
+    )
+RETURN
+FaturamentoCategoria
+```
+```
+Faturamento_Por_Fornecedor = 
+VAR FaturamentoFornecedor = 
+    CALCULATE(
+        SUM('setup_tecnologia vendas'[total_value]), 
+        ALLEXCEPT('setup_tecnologia vendas', 'setup_tecnologia produtos'[supplier_id])
+    )
+RETURN
+FaturamentoFornecedor
+
+```
+```
+Faturamento_Por_Produto = 
+VAR FaturamentoPoduto = 
+    CALCULATE(
+        SUM('setup_tecnologia vendas'[total_value]), 
+        ALLEXCEPT('setup_tecnologia vendas', 'setup_tecnologia produtos'[product_name])
+    )
+RETURN
+FaturamentoPoduto
+
 ```
 
 ```
@@ -42,13 +53,3 @@ RETURN
 TotalVendasCliente
 ```
 
-```
-Faturamento_Por_Fornecedor = 
-VAR TotalFaturamentoFornecedor = 
-    CALCULATE(
-        SUM('setup_tecnologia vendas'[total_value]), 
-        ALLEXCEPT('setup_tecnologia vendas', 'setup_tecnologia produtos'[supplier_id])
-    )
-RETURN
-TotalFaturamentoFornecedor
-```

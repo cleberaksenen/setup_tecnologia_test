@@ -1,0 +1,80 @@
+table 'setup_tecnologia fornecedores'
+	lineageTag: 0ec8a32e-2da8-46fa-a0dd-632a14f6af4d
+
+	column supplier_id
+		dataType: int64
+		formatString: 0
+		lineageTag: a40deadd-4fbd-4b28-804b-b43e0f74bfaf
+		summarizeBy: none
+		sourceColumn: supplier_id
+
+		annotation SummarizationSetBy = Automatic
+
+	column contractor_name
+		dataType: string
+		lineageTag: 0ce4353d-5426-4a4c-a53d-aba5e7e7ac92
+		summarizeBy: none
+		sourceColumn: contractor_name
+
+		annotation SummarizationSetBy = Automatic
+
+	column register_number
+		dataType: string
+		lineageTag: be48d18d-5217-4c3b-8f70-e4b613e18f30
+		summarizeBy: none
+		sourceColumn: register_number
+
+		annotation SummarizationSetBy = Automatic
+
+	column address
+		dataType: string
+		lineageTag: 404b4b75-d5b8-45af-a471-b5caa1f23abd
+		summarizeBy: none
+		sourceColumn: address
+
+		annotation SummarizationSetBy = Automatic
+
+	column city
+		dataType: string
+		lineageTag: 6d48931d-62dc-44b5-a9c4-e9f44bf0db6c
+		summarizeBy: none
+		sourceColumn: city
+
+		annotation SummarizationSetBy = Automatic
+
+	column uf
+		dataType: string
+		lineageTag: e0a4fa6b-1b92-496a-b492-a9800a188fc3
+		summarizeBy: none
+		sourceColumn: uf
+
+		annotation SummarizationSetBy = Automatic
+
+	column zip_code
+		dataType: string
+		lineageTag: 9fa038a7-2973-4cf8-a238-f398af160ed2
+		summarizeBy: none
+		sourceColumn: zip_code
+
+		annotation SummarizationSetBy = Automatic
+
+	column buyed_qty
+		dataType: int64
+		formatString: 0
+		lineageTag: 05860ed1-d237-46a0-b7d6-073e8bacc145
+		summarizeBy: none
+		sourceColumn: buyed_qty
+
+		annotation SummarizationSetBy = Automatic
+
+	partition 'setup_tecnologia fornecedores' = m
+		mode: import
+		source =
+				let
+				    Fonte = MySQL.Database("localhost", "setup_tecnologia", [ReturnSingleDatabase=true]),
+				    setup_tecnologia_fornecedores = Fonte{[Schema="setup_tecnologia",Item="fornecedores"]}[Data]
+				in
+				    setup_tecnologia_fornecedores
+
+	annotation PBI_ResultType = Table
+

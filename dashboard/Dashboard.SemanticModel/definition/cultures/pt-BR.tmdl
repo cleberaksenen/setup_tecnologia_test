@@ -1,0 +1,6132 @@
+cultureInfo pt-BR
+
+	linguisticMetadata =
+			{
+			  "Version": "3.5.0",
+			  "Language": "en-US",
+			  "Entities": {
+			    "setup_tecnologia_cliente": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "setup_tecnologia clientes"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "setup_tecnologia cliente": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "setup_tecnologia_cliente.id": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "setup_tecnologia clientes",
+			          "ConceptualProperty": "id"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "id": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "identification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "identity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "credential": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        }
+			      ],
+			      "NameType": "Identifier"
+			    },
+			    "setup_tecnologia_cliente.name": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "setup_tecnologia clientes",
+			          "ConceptualProperty": "name"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "name": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "title": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "label": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "tag": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "Cliente": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ],
+			      "NameType": "Name"
+			    },
+			    "setup_tecnologia_cliente.register_number": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "setup_tecnologia clientes",
+			          "ConceptualProperty": "register_number"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "register number": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "register_number": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "register no": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    },
+			    "setup_tecnologia_cliente.phone": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "setup_tecnologia clientes",
+			          "ConceptualProperty": "phone"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "phone": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "handset": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "receiver": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "headset": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "telephone": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "mobile": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ]
+			    },
+			    "setup_tecnologia_cliente.email": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "setup_tecnologia clientes",
+			          "ConceptualProperty": "email"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "email": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "correspondence": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "message": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        },
+			        {
+			          "communication": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        }
+			      ]
+			    },
+			    "setup_tecnologia_cliente.address": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "setup_tecnologia clientes",
+			          "ConceptualProperty": "address"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "address": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "location": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "direction": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "residence": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "contact": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "place": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        }
+			      ]
+			    },
+			    "setup_tecnologia_cliente.city": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "setup_tecnologia clientes",
+			          "ConceptualProperty": "city"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "city": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "location": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "metropolis": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "municipality": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "town": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "metropolitan": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        }
+			      ]
+			    },
+			    "setup_tecnologia_cliente.zip_code": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "setup_tecnologia clientes",
+			          "ConceptualProperty": "zip_code"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "zip code": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "zip_code": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "zip id": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "zip key": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "location": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.54
+			          }
+			        },
+			        {
+			          "postcode": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.54
+			          }
+			        },
+			        {
+			          "post code": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.524
+			          }
+			        }
+			      ]
+			    },
+			    "setup_tecnologia_estoque": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "setup_tecnologia estoque"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "setup_tecnologia estoque": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "setup_tecnologia_estoque.product_id": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "setup_tecnologia estoque",
+			          "ConceptualProperty": "product_id"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "product id": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "product_id": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "product": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "product identification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "product identity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "product identifier": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "artifact": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "product credential": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "item": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "merchandise": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "produce": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "artifact id": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "item id": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "setup_tecnologia_estoque.stock_qty": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "setup_tecnologia estoque",
+			          "ConceptualProperty": "stock_qty"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "stock qty": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "stock_qty": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "inventory qty": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "setup_tecnologia_estoque.updated_at": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "setup_tecnologia estoque",
+			          "ConceptualProperty": "updated_at"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "updated at": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "updated_at": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "date": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "setup_tecnologia_estoque.updated_at.hierarquia_de_data": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "setup_tecnologia estoque",
+			          "VariationSource": "updated_at",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "hierarquia de data": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "hierarquia de information": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "hierarquia de fact": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "hierarquia de info": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "hierarquia de statistic": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "hierarquia de document": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "hierarquia de figure": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "hierarquia de record": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        }
+			      ]
+			    },
+			    "setup_tecnologia_estoque.updated_at.ano": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "setup_tecnologia estoque",
+			          "VariationSource": "updated_at",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas",
+			          "HierarchyLevel": "Ano"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ano": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "updated at ano": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "setup_tecnologia_estoque.updated_at.trimestre": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "setup_tecnologia estoque",
+			          "VariationSource": "updated_at",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas",
+			          "HierarchyLevel": "Trimestre"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "trimestre": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "updated at trimestre": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "setup_tecnologia_estoque.updated_at.mê": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "setup_tecnologia estoque",
+			          "VariationSource": "updated_at",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas",
+			          "HierarchyLevel": "Mês"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "mê": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "updated at mê": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "setup_tecnologia_estoque.updated_at.dia": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "setup_tecnologia estoque",
+			          "VariationSource": "updated_at",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas",
+			          "HierarchyLevel": "Dia"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "dia": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "updated at dia": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "setup_tecnologia_estoque.supplier_id": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "setup_tecnologia estoque",
+			          "ConceptualProperty": "supplier_id"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "supplier id": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "supplier_id": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "supplier": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "supplier identification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "supplier identity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "supplier identifier": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "supplier credential": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "dealer": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "provider": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "trader": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "seller": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "purveyor": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "broker": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ]
+			    },
+			    "setup_tecnologia_fornecedore": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "setup_tecnologia fornecedores"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "setup_tecnologia fornecedore": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "setup_tecnologia_fornecedore.supplier_id": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "setup_tecnologia fornecedores",
+			          "ConceptualProperty": "supplier_id"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "supplier id": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "supplier_id": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "supplier": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "supplier identification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "supplier identity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "supplier identifier": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "supplier credential": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "dealer": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "provider": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "trader": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "seller": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "purveyor": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "broker": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ]
+			    },
+			    "setup_tecnologia_fornecedore.contractor_name": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "setup_tecnologia fornecedores",
+			          "ConceptualProperty": "contractor_name"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "contractor name": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "contractor_name": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "contractor": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "contractor nickname": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "contractor title": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "contractor label": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "contractor tag": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "servicer": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "worker": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "outworker": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "freelancer": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "independent": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ]
+			    },
+			    "setup_tecnologia_fornecedore.register_number": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "setup_tecnologia fornecedores",
+			          "ConceptualProperty": "register_number"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "register number": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "register_number": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "register no": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "Número de registro": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "setup_tecnologia_fornecedore.address": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "setup_tecnologia fornecedores",
+			          "ConceptualProperty": "address"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "address": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "location": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "direction": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "residence": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "contact": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "place": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        }
+			      ]
+			    },
+			    "setup_tecnologia_fornecedore.city": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "setup_tecnologia fornecedores",
+			          "ConceptualProperty": "city"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "city": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "location": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "metropolis": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "municipality": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "town": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "metropolitan": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "Cidade": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "setup_tecnologia_fornecedore.uf": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "setup_tecnologia fornecedores",
+			          "ConceptualProperty": "uf"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "uf": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "setup_tecnologia_fornecedore.zip_code": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "setup_tecnologia fornecedores",
+			          "ConceptualProperty": "zip_code"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "zip code": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "zip_code": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "zip id": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "zip key": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "location": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.54
+			          }
+			        },
+			        {
+			          "postcode": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.54
+			          }
+			        },
+			        {
+			          "post code": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.524
+			          }
+			        }
+			      ]
+			    },
+			    "setup_tecnologia_fornecedore.buyed_qty": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "setup_tecnologia fornecedores",
+			          "ConceptualProperty": "buyed_qty"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "buyed qty": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "buyed_qty": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "Quantitativo": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "setup_tecnologia_produto": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "setup_tecnologia produtos"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "setup_tecnologia produto": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "setup_tecnologia_produto.product_id": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "setup_tecnologia produtos",
+			          "ConceptualProperty": "product_id"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "product id": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "product_id": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "product": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "product identification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "product identity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "product identifier": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "artifact": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "product credential": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "item": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "merchandise": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "produce": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "artifact id": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "item id": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "setup_tecnologia_produto.product_name": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "setup_tecnologia produtos",
+			          "ConceptualProperty": "product_name"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "product name": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "product_name": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "product": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "artifact": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "product nickname": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "product title": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "product label": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "product tag": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "item": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "merchandise": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "produce": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "artifact name": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "item name": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "Nome do produto": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "setup_tecnologia_produto.category": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "setup_tecnologia produtos",
+			          "ConceptualProperty": "category"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "category": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "classification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "class": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "type": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "grouping": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "kind": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "Categoria": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "setup_tecnologia_produto.value": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "setup_tecnologia produtos",
+			          "ConceptualProperty": "value"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "value": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "assessment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "worth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "price": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "cost": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "charge": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "rate": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "importance": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "significance": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "usefulness": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "consequence": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        }
+			      ]
+			    },
+			    "setup_tecnologia_produto.supplier_id": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "setup_tecnologia produtos",
+			          "ConceptualProperty": "supplier_id"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "supplier id": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "supplier_id": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "supplier": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "supplier identification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "supplier identity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "supplier identifier": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "supplier credential": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "dealer": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "provider": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "trader": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "seller": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "purveyor": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "broker": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ]
+			    },
+			    "setup_tecnologia_venda": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "setup_tecnologia vendas"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "setup_tecnologia venda": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "setup_tecnologia_venda.id": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "setup_tecnologia vendas",
+			          "ConceptualProperty": "id"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "id": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "identification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "identity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "credential": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        }
+			      ],
+			      "NameType": "Identifier"
+			    },
+			    "setup_tecnologia_venda.client_id": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "setup_tecnologia vendas",
+			          "ConceptualProperty": "client_id"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "client id": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "client_id": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "client": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "client identification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "client identity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "client identifier": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "client credential": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "customer": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "shopper": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "consumer": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "patron": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "user": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "buyer": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        }
+			      ]
+			    },
+			    "setup_tecnologia_venda.product_id": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "setup_tecnologia vendas",
+			          "ConceptualProperty": "product_id"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "product id": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "product_id": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "product": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "product identification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "product identity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "product identifier": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "artifact": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "product credential": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "item": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "merchandise": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "produce": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "artifact id": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "item id": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "setup_tecnologia_venda.quantity": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "setup_tecnologia vendas",
+			          "ConceptualProperty": "quantity"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "quantity": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "extent": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "magnitude": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "measure": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "size": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "capacity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "mass": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ]
+			    },
+			    "setup_tecnologia_venda.sale_date": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "setup_tecnologia vendas",
+			          "ConceptualProperty": "sale_date"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "sale date": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "sale_date": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "date": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        },
+			        {
+			          "sale moment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "sale period": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "setup_tecnologia_venda.sale_date.hierarquia_de_data": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "setup_tecnologia vendas",
+			          "VariationSource": "sale_date",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "hierarquia de data": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "hierarquia de information": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "hierarquia de fact": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "hierarquia de info": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "hierarquia de statistic": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "hierarquia de document": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "hierarquia de figure": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "hierarquia de record": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        }
+			      ]
+			    },
+			    "setup_tecnologia_venda.sale_date.ano": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "setup_tecnologia vendas",
+			          "VariationSource": "sale_date",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas",
+			          "HierarchyLevel": "Ano"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ano": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "sale date ano": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "sale moment ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "sale period ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "setup_tecnologia_venda.sale_date.trimestre": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "setup_tecnologia vendas",
+			          "VariationSource": "sale_date",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas",
+			          "HierarchyLevel": "Trimestre"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "trimestre": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "sale date trimestre": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "sale moment trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "sale period trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "setup_tecnologia_venda.sale_date.mê": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "setup_tecnologia vendas",
+			          "VariationSource": "sale_date",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas",
+			          "HierarchyLevel": "Mês"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "mê": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "sale date mê": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "sale moment mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "sale period mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "setup_tecnologia_venda.sale_date.dia": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "setup_tecnologia vendas",
+			          "VariationSource": "sale_date",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas",
+			          "HierarchyLevel": "Dia"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "dia": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "sale date dia": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "sale moment dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "sale period dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "setup_tecnologia_venda.total_value": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "setup_tecnologia vendas",
+			          "ConceptualProperty": "total_value"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "total value": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "total_value": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "aggregate value": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "overall value": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "total assessment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "total worth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "total price": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "total cost": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "total charge": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "total rate": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "total importance": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.475
+			          }
+			        },
+			        {
+			          "total significance": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.475
+			          }
+			        }
+			      ]
+			    },
+			    "setup_tecnologia_cliente.state": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "setup_tecnologia clientes",
+			          "ConceptualProperty": "state"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {},
+			        {
+			          "location": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "province": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "territory": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "nation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "condition": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        }
+			      ]
+			    },
+			    "setup_tecnologia_cliente.country": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "setup_tecnologia clientes",
+			          "ConceptualProperty": "country"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "country": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "nation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "location": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        }
+			      ]
+			    },
+			    "setup_tecnologia_cliente.local": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "setup_tecnologia clientes",
+			          "ConceptualProperty": "local"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "local": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "native": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "resident": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "home-grown": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "narrow": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        }
+			      ]
+			    },
+			    "setup_tecnologia_cliente.complete_address": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "setup_tecnologia clientes",
+			          "ConceptualProperty": "complete_address"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "complete address": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "complete_address": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "complete location": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "complete direction": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "complete residence": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "complete contact": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "complete place": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    },
+			    "setup_tecnologia_venda.ticket_por_cliente": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "setup_tecnologia vendas",
+			          "ConceptualProperty": "Ticket_Por_Cliente"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ticket por cliente": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Ticket_Por_Cliente": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "setup_tecnologia_venda.compras_por_cliente": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "setup_tecnologia vendas",
+			          "ConceptualProperty": "Compras_Por_Cliente"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "compras por cliente": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "compra por cliente": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        },
+			        {
+			          "Compras_Por_Cliente": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "setup_tecnologia_venda.faturamento_por_categoria": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "setup_tecnologia vendas",
+			          "ConceptualProperty": "Faturamento_Por_Categoria"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "faturamento por categoria": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Faturamento_Por_Categoria": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "setup_tecnologia_venda.faturamento_por_fornecedor": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "setup_tecnologia vendas",
+			          "ConceptualProperty": "Faturamento_Por_Fornecedor"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "faturamento por fornecedor": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Faturamento_Por_Fornecedor": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "setup_tecnologia_venda.faturamento_por_produto": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "setup_tecnologia vendas",
+			          "ConceptualProperty": "Faturamento_Por_Produto"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "faturamento por produto": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Faturamento_Por_Produto": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    }
+			  },
+			  "Relationships": {
+			    "setup_tecnologia_venda_sale_date_has_hierarquia_de_data": {
+			      "Binding": {
+			        "ConceptualEntity": "setup_tecnologia vendas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "setup_tecnologia_venda.sale_date": {
+			          "Target": {
+			            "Entity": "setup_tecnologia_venda.sale_date"
+			          }
+			        },
+			        "setup_tecnologia_venda.sale_date.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "setup_tecnologia_venda.sale_date.hierarquia_de_data"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "setup_tecnologia_venda.sale_date"
+			            },
+			            "Object": {
+			              "Role": "setup_tecnologia_venda.sale_date.hierarquia_de_data"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "sale_dates_have_hierarquia_de_data"
+			        }
+			      ]
+			    },
+			    "setup_tecnologia_estoque_updated_at_mê_has_setup_tecnologia_estoque_updated_at_dia": {
+			      "Binding": {
+			        "ConceptualEntity": "setup_tecnologia estoque"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "setup_tecnologia_estoque.updated_at.mê": {
+			          "Target": {
+			            "Entity": "setup_tecnologia_estoque.updated_at.mê"
+			          }
+			        },
+			        "setup_tecnologia_estoque.updated_at.dia": {
+			          "Target": {
+			            "Entity": "setup_tecnologia_estoque.updated_at.dia"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "setup_tecnologia_estoque.updated_at.mê"
+			            },
+			            "Object": {
+			              "Role": "setup_tecnologia_estoque.updated_at.dia"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "mê_have_dias"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "setup_tecnologia_estoque.updated_at.dia"
+			            },
+			            "Object": {
+			              "Role": "setup_tecnologia_estoque.updated_at.mê"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dias_have_mê"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "setup_tecnologia_estoque.updated_at.dia"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "setup_tecnologia_estoque.updated_at.mê"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dias_are_in_mê"
+			        }
+			      ]
+			    },
+			    "setup_tecnologia_estoque_updated_at_trimestre_has_setup_tecnologia_estoque_updated_at_mê": {
+			      "Binding": {
+			        "ConceptualEntity": "setup_tecnologia estoque"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "setup_tecnologia_estoque.updated_at.trimestre": {
+			          "Target": {
+			            "Entity": "setup_tecnologia_estoque.updated_at.trimestre"
+			          }
+			        },
+			        "setup_tecnologia_estoque.updated_at.mê": {
+			          "Target": {
+			            "Entity": "setup_tecnologia_estoque.updated_at.mê"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "setup_tecnologia_estoque.updated_at.trimestre"
+			            },
+			            "Object": {
+			              "Role": "setup_tecnologia_estoque.updated_at.mê"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_have_mê"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "setup_tecnologia_estoque.updated_at.mê"
+			            },
+			            "Object": {
+			              "Role": "setup_tecnologia_estoque.updated_at.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "mê_have_trimestres"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "setup_tecnologia_estoque.updated_at.mê"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "setup_tecnologia_estoque.updated_at.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "mê_are_in_trimestres"
+			        }
+			      ]
+			    },
+			    "setup_tecnologia_estoque_updated_at_ano_has_setup_tecnologia_estoque_updated_at_trimestre": {
+			      "Binding": {
+			        "ConceptualEntity": "setup_tecnologia estoque"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "setup_tecnologia_estoque.updated_at.ano": {
+			          "Target": {
+			            "Entity": "setup_tecnologia_estoque.updated_at.ano"
+			          }
+			        },
+			        "setup_tecnologia_estoque.updated_at.trimestre": {
+			          "Target": {
+			            "Entity": "setup_tecnologia_estoque.updated_at.trimestre"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "setup_tecnologia_estoque.updated_at.ano"
+			            },
+			            "Object": {
+			              "Role": "setup_tecnologia_estoque.updated_at.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "anos_have_trimestres"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "setup_tecnologia_estoque.updated_at.trimestre"
+			            },
+			            "Object": {
+			              "Role": "setup_tecnologia_estoque.updated_at.ano"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_have_anos"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "setup_tecnologia_estoque.updated_at.trimestre"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "setup_tecnologia_estoque.updated_at.ano"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_are_in_anos"
+			        }
+			      ]
+			    },
+			    "setup_tecnologia_estoque_updated_at_hierarquia_de_data_has_setup_tecnologia_estoque_updated_at_dia": {
+			      "Binding": {
+			        "ConceptualEntity": "setup_tecnologia estoque"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "setup_tecnologia_estoque.updated_at.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "setup_tecnologia_estoque.updated_at.hierarquia_de_data"
+			          }
+			        },
+			        "setup_tecnologia_estoque.updated_at.dia": {
+			          "Target": {
+			            "Entity": "setup_tecnologia_estoque.updated_at.dia"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "setup_tecnologia_estoque.updated_at.hierarquia_de_data"
+			            },
+			            "Object": {
+			              "Role": "setup_tecnologia_estoque.updated_at.dia"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hierarquia_de_data_have_dias"
+			        }
+			      ]
+			    },
+			    "setup_tecnologia_estoque_updated_at_hierarquia_de_data_has_setup_tecnologia_estoque_updated_at_mê": {
+			      "Binding": {
+			        "ConceptualEntity": "setup_tecnologia estoque"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "setup_tecnologia_estoque.updated_at.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "setup_tecnologia_estoque.updated_at.hierarquia_de_data"
+			          }
+			        },
+			        "setup_tecnologia_estoque.updated_at.mê": {
+			          "Target": {
+			            "Entity": "setup_tecnologia_estoque.updated_at.mê"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "setup_tecnologia_estoque.updated_at.hierarquia_de_data"
+			            },
+			            "Object": {
+			              "Role": "setup_tecnologia_estoque.updated_at.mê"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hierarquia_de_data_have_mê"
+			        }
+			      ]
+			    },
+			    "setup_tecnologia_estoque_updated_at_hierarquia_de_data_has_setup_tecnologia_estoque_updated_at_trimestre": {
+			      "Binding": {
+			        "ConceptualEntity": "setup_tecnologia estoque"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "setup_tecnologia_estoque.updated_at.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "setup_tecnologia_estoque.updated_at.hierarquia_de_data"
+			          }
+			        },
+			        "setup_tecnologia_estoque.updated_at.trimestre": {
+			          "Target": {
+			            "Entity": "setup_tecnologia_estoque.updated_at.trimestre"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "setup_tecnologia_estoque.updated_at.hierarquia_de_data"
+			            },
+			            "Object": {
+			              "Role": "setup_tecnologia_estoque.updated_at.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hierarquia_de_data_have_trimestres"
+			        }
+			      ]
+			    },
+			    "setup_tecnologia_estoque_updated_at_hierarquia_de_data_has_setup_tecnologia_estoque_updated_at_ano": {
+			      "Binding": {
+			        "ConceptualEntity": "setup_tecnologia estoque"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "setup_tecnologia_estoque.updated_at.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "setup_tecnologia_estoque.updated_at.hierarquia_de_data"
+			          }
+			        },
+			        "setup_tecnologia_estoque.updated_at.ano": {
+			          "Target": {
+			            "Entity": "setup_tecnologia_estoque.updated_at.ano"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "setup_tecnologia_estoque.updated_at.hierarquia_de_data"
+			            },
+			            "Object": {
+			              "Role": "setup_tecnologia_estoque.updated_at.ano"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hierarquia_de_data_have_anos"
+			        }
+			      ]
+			    },
+			    "setup_tecnologia_estoque_updated_at_has_hierarquia_de_data": {
+			      "Binding": {
+			        "ConceptualEntity": "setup_tecnologia estoque"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "setup_tecnologia_estoque.updated_at": {
+			          "Target": {
+			            "Entity": "setup_tecnologia_estoque.updated_at"
+			          }
+			        },
+			        "setup_tecnologia_estoque.updated_at.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "setup_tecnologia_estoque.updated_at.hierarquia_de_data"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "setup_tecnologia_estoque.updated_at"
+			            },
+			            "Object": {
+			              "Role": "setup_tecnologia_estoque.updated_at.hierarquia_de_data"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "updated_at_have_hierarquia_de_data"
+			        }
+			      ]
+			    },
+			    "setup_tecnologia_venda_has_setup_tecnologia_produto": {
+			      "Binding": {
+			        "ConceptualEntity": "setup_tecnologia vendas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "setup_tecnologia_venda": {
+			          "Target": {
+			            "Entity": "setup_tecnologia_venda"
+			          }
+			        },
+			        "setup_tecnologia_produto": {
+			          "Target": {
+			            "Entity": "setup_tecnologia_produto"
+			          },
+			          "Nouns": [
+			            {
+			              "product": {
+			                "State": "Generated"
+			              }
+			            }
+			          ]
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "setup_tecnologia_venda"
+			            },
+			            "Object": {
+			              "Role": "setup_tecnologia_produto"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "setup_tecnologia_venda_have_setup_tecnologia_produtos"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "setup_tecnologia_produto"
+			            },
+			            "Object": {
+			              "Role": "setup_tecnologia_venda"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "setup_tecnologia_produtos_have_setup_tecnologia_venda"
+			        }
+			      ]
+			    },
+			    "setup_tecnologia_venda_has_setup_tecnologia_cliente": {
+			      "Binding": {
+			        "ConceptualEntity": "setup_tecnologia vendas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "setup_tecnologia_venda": {
+			          "Target": {
+			            "Entity": "setup_tecnologia_venda"
+			          }
+			        },
+			        "setup_tecnologia_cliente": {
+			          "Target": {
+			            "Entity": "setup_tecnologia_cliente"
+			          },
+			          "Nouns": [
+			            {
+			              "client": {
+			                "State": "Generated"
+			              }
+			            }
+			          ]
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "setup_tecnologia_venda"
+			            },
+			            "Object": {
+			              "Role": "setup_tecnologia_cliente"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "setup_tecnologia_venda_have_setup_tecnologia_clientes"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "setup_tecnologia_cliente"
+			            },
+			            "Object": {
+			              "Role": "setup_tecnologia_venda"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "setup_tecnologia_clientes_have_setup_tecnologia_venda"
+			        }
+			      ]
+			    },
+			    "setup_tecnologia_produto_has_setup_tecnologia_estoque": {
+			      "Binding": {
+			        "ConceptualEntity": "setup_tecnologia produtos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "setup_tecnologia_produto": {
+			          "Target": {
+			            "Entity": "setup_tecnologia_produto"
+			          }
+			        },
+			        "setup_tecnologia_estoque": {
+			          "Target": {
+			            "Entity": "setup_tecnologia_estoque"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "setup_tecnologia_produto"
+			            },
+			            "Object": {
+			              "Role": "setup_tecnologia_estoque"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "setup_tecnologia_produtos_have_setup_tecnologia_estoques"
+			        }
+			      ]
+			    },
+			    "setup_tecnologia_estoque_has_setup_tecnologia_produto": {
+			      "Binding": {
+			        "ConceptualEntity": "setup_tecnologia estoque"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "setup_tecnologia_estoque": {
+			          "Target": {
+			            "Entity": "setup_tecnologia_estoque"
+			          }
+			        },
+			        "setup_tecnologia_produto": {
+			          "Target": {
+			            "Entity": "setup_tecnologia_produto"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "setup_tecnologia_estoque"
+			            },
+			            "Object": {
+			              "Role": "setup_tecnologia_produto"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "setup_tecnologia_estoques_have_setup_tecnologia_produtos"
+			        }
+			      ]
+			    },
+			    "setup_tecnologia_estoque_has_setup_tecnologia_fornecedore": {
+			      "Binding": {
+			        "ConceptualEntity": "setup_tecnologia estoque"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "setup_tecnologia_estoque": {
+			          "Target": {
+			            "Entity": "setup_tecnologia_estoque"
+			          }
+			        },
+			        "setup_tecnologia_fornecedore": {
+			          "Target": {
+			            "Entity": "setup_tecnologia_fornecedore"
+			          },
+			          "Nouns": [
+			            {
+			              "supplier": {
+			                "State": "Generated"
+			              }
+			            }
+			          ]
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "setup_tecnologia_estoque"
+			            },
+			            "Object": {
+			              "Role": "setup_tecnologia_fornecedore"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "setup_tecnologia_estoques_have_setup_tecnologia_fornecedores"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "setup_tecnologia_fornecedore"
+			            },
+			            "Object": {
+			              "Role": "setup_tecnologia_estoque"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "setup_tecnologia_fornecedores_have_setup_tecnologia_estoques"
+			        },
+			        {
+			          "Verb": {
+			            "Subject": {
+			              "Role": "setup_tecnologia_fornecedore"
+			            },
+			            "Verbs": [
+			              {
+			                "supply": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "setup_tecnologia_estoque"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.75,
+			          "ID": "setup_tecnologia_fornecedores_supply_setup_tecnologia_estoques"
+			        }
+			      ]
+			    },
+			    "setup_tecnologia_venda_has_faturamento_por_produto": {
+			      "Binding": {
+			        "ConceptualEntity": "setup_tecnologia vendas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "setup_tecnologia_venda": {
+			          "Target": {
+			            "Entity": "setup_tecnologia_venda"
+			          }
+			        },
+			        "setup_tecnologia_venda.faturamento_por_produto": {
+			          "Target": {
+			            "Entity": "setup_tecnologia_venda.faturamento_por_produto"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "setup_tecnologia_venda"
+			            },
+			            "Object": {
+			              "Role": "setup_tecnologia_venda.faturamento_por_produto"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "setup_tecnologia_venda_have_faturamento_por_produtos"
+			        }
+			      ]
+			    },
+			    "setup_tecnologia_venda_has_faturamento_por_fornecedor": {
+			      "Binding": {
+			        "ConceptualEntity": "setup_tecnologia vendas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "setup_tecnologia_venda": {
+			          "Target": {
+			            "Entity": "setup_tecnologia_venda"
+			          }
+			        },
+			        "setup_tecnologia_venda.faturamento_por_fornecedor": {
+			          "Target": {
+			            "Entity": "setup_tecnologia_venda.faturamento_por_fornecedor"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "setup_tecnologia_venda"
+			            },
+			            "Object": {
+			              "Role": "setup_tecnologia_venda.faturamento_por_fornecedor"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "setup_tecnologia_venda_have_faturamento_por_fornecedors"
+			        }
+			      ]
+			    },
+			    "setup_tecnologia_venda_has_faturamento_por_categoria": {
+			      "Binding": {
+			        "ConceptualEntity": "setup_tecnologia vendas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "setup_tecnologia_venda": {
+			          "Target": {
+			            "Entity": "setup_tecnologia_venda"
+			          }
+			        },
+			        "setup_tecnologia_venda.faturamento_por_categoria": {
+			          "Target": {
+			            "Entity": "setup_tecnologia_venda.faturamento_por_categoria"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "setup_tecnologia_venda"
+			            },
+			            "Object": {
+			              "Role": "setup_tecnologia_venda.faturamento_por_categoria"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "setup_tecnologia_venda_have_faturamento_por_categorias"
+			        }
+			      ]
+			    },
+			    "setup_tecnologia_venda_has_compras_por_cliente": {
+			      "Binding": {
+			        "ConceptualEntity": "setup_tecnologia vendas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "setup_tecnologia_venda": {
+			          "Target": {
+			            "Entity": "setup_tecnologia_venda"
+			          }
+			        },
+			        "setup_tecnologia_venda.compras_por_cliente": {
+			          "Target": {
+			            "Entity": "setup_tecnologia_venda.compras_por_cliente"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "setup_tecnologia_venda"
+			            },
+			            "Object": {
+			              "Role": "setup_tecnologia_venda.compras_por_cliente"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "setup_tecnologia_venda_have_compras_por_clientes"
+			        }
+			      ]
+			    },
+			    "setup_tecnologia_venda_has_ticket_por_cliente": {
+			      "Binding": {
+			        "ConceptualEntity": "setup_tecnologia vendas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "setup_tecnologia_venda": {
+			          "Target": {
+			            "Entity": "setup_tecnologia_venda"
+			          }
+			        },
+			        "setup_tecnologia_venda.ticket_por_cliente": {
+			          "Target": {
+			            "Entity": "setup_tecnologia_venda.ticket_por_cliente"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "setup_tecnologia_venda"
+			            },
+			            "Object": {
+			              "Role": "setup_tecnologia_venda.ticket_por_cliente"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "setup_tecnologia_venda_have_ticket_por_clientes"
+			        },
+			        {
+			          "Adjective": {
+			            "Subject": {
+			              "Role": "setup_tecnologia_venda"
+			            },
+			            "Adjectives": [
+			              {
+			                "expensive": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Antonyms": [
+			              {
+			                "cheap": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Measurement": {
+			              "Role": "setup_tecnologia_venda.ticket_por_cliente"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ticket_por_cliente_indicates_how_expensive_setup_tecnologia_venda_are"
+			        }
+			      ]
+			    },
+			    "setup_tecnologia_cliente_has_complete_address": {
+			      "Binding": {
+			        "ConceptualEntity": "setup_tecnologia clientes"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "setup_tecnologia_cliente": {
+			          "Target": {
+			            "Entity": "setup_tecnologia_cliente"
+			          }
+			        },
+			        "setup_tecnologia_cliente.complete_address": {
+			          "Target": {
+			            "Entity": "setup_tecnologia_cliente.complete_address"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "setup_tecnologia_cliente"
+			            },
+			            "Object": {
+			              "Role": "setup_tecnologia_cliente.complete_address"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "setup_tecnologia_clientes_have_complete_addresses"
+			        }
+			      ]
+			    },
+			    "setup_tecnologia_cliente_has_local": {
+			      "Binding": {
+			        "ConceptualEntity": "setup_tecnologia clientes"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "setup_tecnologia_cliente": {
+			          "Target": {
+			            "Entity": "setup_tecnologia_cliente"
+			          }
+			        },
+			        "setup_tecnologia_cliente.local": {
+			          "Target": {
+			            "Entity": "setup_tecnologia_cliente.local"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "setup_tecnologia_cliente"
+			            },
+			            "Object": {
+			              "Role": "setup_tecnologia_cliente.local"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "setup_tecnologia_clientes_have_locals"
+			        }
+			      ]
+			    },
+			    "setup_tecnologia_cliente_has_country": {
+			      "Binding": {
+			        "ConceptualEntity": "setup_tecnologia clientes"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "setup_tecnologia_cliente": {
+			          "Target": {
+			            "Entity": "setup_tecnologia_cliente"
+			          }
+			        },
+			        "setup_tecnologia_cliente.country": {
+			          "Target": {
+			            "Entity": "setup_tecnologia_cliente.country"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "setup_tecnologia_cliente"
+			            },
+			            "Object": {
+			              "Role": "setup_tecnologia_cliente.country"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "setup_tecnologia_clientes_have_countries"
+			        }
+			      ]
+			    },
+			    "setup_tecnologia_cliente_has_state": {
+			      "Binding": {
+			        "ConceptualEntity": "setup_tecnologia clientes"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "setup_tecnologia_cliente": {
+			          "Target": {
+			            "Entity": "setup_tecnologia_cliente"
+			          }
+			        },
+			        "setup_tecnologia_cliente.state": {
+			          "Target": {
+			            "Entity": "setup_tecnologia_cliente.state"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "setup_tecnologia_cliente"
+			            },
+			            "Object": {
+			              "Role": "setup_tecnologia_cliente.state"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "setup_tecnologia_clientes_have_states"
+			        }
+			      ]
+			    },
+			    "setup_tecnologia_venda_has_total_value": {
+			      "Binding": {
+			        "ConceptualEntity": "setup_tecnologia vendas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "setup_tecnologia_venda": {
+			          "Target": {
+			            "Entity": "setup_tecnologia_venda"
+			          }
+			        },
+			        "setup_tecnologia_venda.total_value": {
+			          "Target": {
+			            "Entity": "setup_tecnologia_venda.total_value"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "setup_tecnologia_venda"
+			            },
+			            "Object": {
+			              "Role": "setup_tecnologia_venda.total_value"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "setup_tecnologia_venda_have_total_values"
+			        },
+			        {
+			          "Adjective": {
+			            "Subject": {
+			              "Role": "setup_tecnologia_venda"
+			            },
+			            "Adjectives": [
+			              {
+			                "expensive": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Antonyms": [
+			              {
+			                "cheap": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Measurement": {
+			              "Role": "setup_tecnologia_venda.total_value"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "total_value_indicates_how_expensive_setup_tecnologia_venda_are"
+			        }
+			      ]
+			    },
+			    "setup_tecnologia_venda_has_sale_date": {
+			      "Binding": {
+			        "ConceptualEntity": "setup_tecnologia vendas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "setup_tecnologia_venda": {
+			          "Target": {
+			            "Entity": "setup_tecnologia_venda"
+			          }
+			        },
+			        "setup_tecnologia_venda.sale_date": {
+			          "Target": {
+			            "Entity": "setup_tecnologia_venda.sale_date"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "setup_tecnologia_venda"
+			            },
+			            "Object": {
+			              "Role": "setup_tecnologia_venda.sale_date"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "setup_tecnologia_venda_have_sale_dates"
+			        }
+			      ]
+			    },
+			    "setup_tecnologia_venda_has_quantity": {
+			      "Binding": {
+			        "ConceptualEntity": "setup_tecnologia vendas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "setup_tecnologia_venda": {
+			          "Target": {
+			            "Entity": "setup_tecnologia_venda"
+			          }
+			        },
+			        "setup_tecnologia_venda.quantity": {
+			          "Target": {
+			            "Entity": "setup_tecnologia_venda.quantity"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "setup_tecnologia_venda"
+			            },
+			            "Object": {
+			              "Role": "setup_tecnologia_venda.quantity"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "setup_tecnologia_venda_have_quantities"
+			        }
+			      ]
+			    },
+			    "setup_tecnologia_venda_has_id": {
+			      "Binding": {
+			        "ConceptualEntity": "setup_tecnologia vendas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "setup_tecnologia_venda": {
+			          "Target": {
+			            "Entity": "setup_tecnologia_venda"
+			          }
+			        },
+			        "setup_tecnologia_venda.id": {
+			          "Target": {
+			            "Entity": "setup_tecnologia_venda.id"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "setup_tecnologia_venda"
+			            },
+			            "Object": {
+			              "Role": "setup_tecnologia_venda.id"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "setup_tecnologia_venda_have_ids"
+			        },
+			        {
+			          "Name": {
+			            "Subject": {
+			              "Role": "setup_tecnologia_venda"
+			            },
+			            "Name": {
+			              "Role": "setup_tecnologia_venda.id"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ids_are_names_IDs_of_setup_tecnologia_venda"
+			        }
+			      ]
+			    },
+			    "setup_tecnologia_produto_has_supplier_id": {
+			      "Binding": {
+			        "ConceptualEntity": "setup_tecnologia produtos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "setup_tecnologia_produto": {
+			          "Target": {
+			            "Entity": "setup_tecnologia_produto"
+			          }
+			        },
+			        "setup_tecnologia_produto.supplier_id": {
+			          "Target": {
+			            "Entity": "setup_tecnologia_produto.supplier_id"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "setup_tecnologia_produto"
+			            },
+			            "Object": {
+			              "Role": "setup_tecnologia_produto.supplier_id"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "setup_tecnologia_produtos_have_supplier_ids"
+			        }
+			      ]
+			    },
+			    "setup_tecnologia_produto_has_value": {
+			      "Binding": {
+			        "ConceptualEntity": "setup_tecnologia produtos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "setup_tecnologia_produto": {
+			          "Target": {
+			            "Entity": "setup_tecnologia_produto"
+			          }
+			        },
+			        "setup_tecnologia_produto.value": {
+			          "Target": {
+			            "Entity": "setup_tecnologia_produto.value"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "setup_tecnologia_produto"
+			            },
+			            "Object": {
+			              "Role": "setup_tecnologia_produto.value"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "setup_tecnologia_produtos_have_values"
+			        }
+			      ]
+			    },
+			    "setup_tecnologia_produto_has_category": {
+			      "Binding": {
+			        "ConceptualEntity": "setup_tecnologia produtos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "setup_tecnologia_produto": {
+			          "Target": {
+			            "Entity": "setup_tecnologia_produto"
+			          }
+			        },
+			        "setup_tecnologia_produto.category": {
+			          "Target": {
+			            "Entity": "setup_tecnologia_produto.category"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "setup_tecnologia_produto"
+			            },
+			            "Object": {
+			              "Role": "setup_tecnologia_produto.category"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "setup_tecnologia_produtos_have_categories"
+			        }
+			      ]
+			    },
+			    "setup_tecnologia_produto_has_product_name": {
+			      "Binding": {
+			        "ConceptualEntity": "setup_tecnologia produtos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "setup_tecnologia_produto": {
+			          "Target": {
+			            "Entity": "setup_tecnologia_produto"
+			          }
+			        },
+			        "setup_tecnologia_produto.product_name": {
+			          "Target": {
+			            "Entity": "setup_tecnologia_produto.product_name"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "setup_tecnologia_produto"
+			            },
+			            "Object": {
+			              "Role": "setup_tecnologia_produto.product_name"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "setup_tecnologia_produtos_have_product_names"
+			        }
+			      ]
+			    },
+			    "setup_tecnologia_produto_has_product_id": {
+			      "Binding": {
+			        "ConceptualEntity": "setup_tecnologia produtos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "setup_tecnologia_produto": {
+			          "Target": {
+			            "Entity": "setup_tecnologia_produto"
+			          }
+			        },
+			        "setup_tecnologia_produto.product_id": {
+			          "Target": {
+			            "Entity": "setup_tecnologia_produto.product_id"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "setup_tecnologia_produto"
+			            },
+			            "Object": {
+			              "Role": "setup_tecnologia_produto.product_id"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "setup_tecnologia_produtos_have_product_ids"
+			        }
+			      ]
+			    },
+			    "setup_tecnologia_fornecedore_has_buyed_qty": {
+			      "Binding": {
+			        "ConceptualEntity": "setup_tecnologia fornecedores"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "setup_tecnologia_fornecedore": {
+			          "Target": {
+			            "Entity": "setup_tecnologia_fornecedore"
+			          }
+			        },
+			        "setup_tecnologia_fornecedore.buyed_qty": {
+			          "Target": {
+			            "Entity": "setup_tecnologia_fornecedore.buyed_qty"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "setup_tecnologia_fornecedore"
+			            },
+			            "Object": {
+			              "Role": "setup_tecnologia_fornecedore.buyed_qty"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "setup_tecnologia_fornecedores_have_buyed_qties"
+			        }
+			      ]
+			    },
+			    "setup_tecnologia_fornecedore_has_zip_code": {
+			      "Binding": {
+			        "ConceptualEntity": "setup_tecnologia fornecedores"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "setup_tecnologia_fornecedore": {
+			          "Target": {
+			            "Entity": "setup_tecnologia_fornecedore"
+			          }
+			        },
+			        "setup_tecnologia_fornecedore.zip_code": {
+			          "Target": {
+			            "Entity": "setup_tecnologia_fornecedore.zip_code"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "setup_tecnologia_fornecedore"
+			            },
+			            "Object": {
+			              "Role": "setup_tecnologia_fornecedore.zip_code"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "setup_tecnologia_fornecedores_have_zip_codes"
+			        }
+			      ]
+			    },
+			    "setup_tecnologia_fornecedore_has_uf": {
+			      "Binding": {
+			        "ConceptualEntity": "setup_tecnologia fornecedores"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "setup_tecnologia_fornecedore": {
+			          "Target": {
+			            "Entity": "setup_tecnologia_fornecedore"
+			          }
+			        },
+			        "setup_tecnologia_fornecedore.uf": {
+			          "Target": {
+			            "Entity": "setup_tecnologia_fornecedore.uf"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "setup_tecnologia_fornecedore"
+			            },
+			            "Object": {
+			              "Role": "setup_tecnologia_fornecedore.uf"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "setup_tecnologia_fornecedores_have_ufs"
+			        }
+			      ]
+			    },
+			    "setup_tecnologia_fornecedore_has_city": {
+			      "Binding": {
+			        "ConceptualEntity": "setup_tecnologia fornecedores"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "setup_tecnologia_fornecedore": {
+			          "Target": {
+			            "Entity": "setup_tecnologia_fornecedore"
+			          }
+			        },
+			        "setup_tecnologia_fornecedore.city": {
+			          "Target": {
+			            "Entity": "setup_tecnologia_fornecedore.city"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "setup_tecnologia_fornecedore"
+			            },
+			            "Object": {
+			              "Role": "setup_tecnologia_fornecedore.city"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "setup_tecnologia_fornecedores_have_cities"
+			        }
+			      ]
+			    },
+			    "setup_tecnologia_fornecedore_has_address": {
+			      "Binding": {
+			        "ConceptualEntity": "setup_tecnologia fornecedores"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "setup_tecnologia_fornecedore": {
+			          "Target": {
+			            "Entity": "setup_tecnologia_fornecedore"
+			          }
+			        },
+			        "setup_tecnologia_fornecedore.address": {
+			          "Target": {
+			            "Entity": "setup_tecnologia_fornecedore.address"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "setup_tecnologia_fornecedore"
+			            },
+			            "Object": {
+			              "Role": "setup_tecnologia_fornecedore.address"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "setup_tecnologia_fornecedores_have_addresses"
+			        }
+			      ]
+			    },
+			    "setup_tecnologia_fornecedore_has_register_number": {
+			      "Binding": {
+			        "ConceptualEntity": "setup_tecnologia fornecedores"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "setup_tecnologia_fornecedore": {
+			          "Target": {
+			            "Entity": "setup_tecnologia_fornecedore"
+			          }
+			        },
+			        "setup_tecnologia_fornecedore.register_number": {
+			          "Target": {
+			            "Entity": "setup_tecnologia_fornecedore.register_number"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "setup_tecnologia_fornecedore"
+			            },
+			            "Object": {
+			              "Role": "setup_tecnologia_fornecedore.register_number"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "setup_tecnologia_fornecedores_have_register_numbers"
+			        }
+			      ]
+			    },
+			    "setup_tecnologia_fornecedore_has_contractor_name": {
+			      "Binding": {
+			        "ConceptualEntity": "setup_tecnologia fornecedores"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "setup_tecnologia_fornecedore": {
+			          "Target": {
+			            "Entity": "setup_tecnologia_fornecedore"
+			          }
+			        },
+			        "setup_tecnologia_fornecedore.contractor_name": {
+			          "Target": {
+			            "Entity": "setup_tecnologia_fornecedore.contractor_name"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "setup_tecnologia_fornecedore"
+			            },
+			            "Object": {
+			              "Role": "setup_tecnologia_fornecedore.contractor_name"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "setup_tecnologia_fornecedores_have_contractor_names"
+			        },
+			        {
+			          "Verb": {
+			            "Subject": {
+			              "Role": "setup_tecnologia_fornecedore.contractor_name"
+			            },
+			            "Verbs": [
+			              {
+			                "contract": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "setup_tecnologia_fornecedore"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.75,
+			          "ID": "contractor_names_contract_setup_tecnologia_fornecedores"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "setup_tecnologia_fornecedore.contractor_name"
+			            },
+			            "Object": {
+			              "Role": "setup_tecnologia_fornecedore"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "contractor_names_have_setup_tecnologia_fornecedores"
+			        }
+			      ]
+			    },
+			    "setup_tecnologia_fornecedore_has_supplier_id": {
+			      "Binding": {
+			        "ConceptualEntity": "setup_tecnologia fornecedores"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "setup_tecnologia_fornecedore": {
+			          "Target": {
+			            "Entity": "setup_tecnologia_fornecedore"
+			          }
+			        },
+			        "setup_tecnologia_fornecedore.supplier_id": {
+			          "Target": {
+			            "Entity": "setup_tecnologia_fornecedore.supplier_id"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "setup_tecnologia_fornecedore"
+			            },
+			            "Object": {
+			              "Role": "setup_tecnologia_fornecedore.supplier_id"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "setup_tecnologia_fornecedores_have_supplier_ids"
+			        }
+			      ]
+			    },
+			    "setup_tecnologia_estoque_has_updated_at": {
+			      "Binding": {
+			        "ConceptualEntity": "setup_tecnologia estoque"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "setup_tecnologia_estoque": {
+			          "Target": {
+			            "Entity": "setup_tecnologia_estoque"
+			          }
+			        },
+			        "setup_tecnologia_estoque.updated_at": {
+			          "Target": {
+			            "Entity": "setup_tecnologia_estoque.updated_at"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "setup_tecnologia_estoque"
+			            },
+			            "Object": {
+			              "Role": "setup_tecnologia_estoque.updated_at"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "setup_tecnologia_estoques_have_updated_at"
+			        }
+			      ]
+			    },
+			    "setup_tecnologia_estoque_has_stock_qty": {
+			      "Binding": {
+			        "ConceptualEntity": "setup_tecnologia estoque"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "setup_tecnologia_estoque": {
+			          "Target": {
+			            "Entity": "setup_tecnologia_estoque"
+			          }
+			        },
+			        "setup_tecnologia_estoque.stock_qty": {
+			          "Target": {
+			            "Entity": "setup_tecnologia_estoque.stock_qty"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "setup_tecnologia_estoque"
+			            },
+			            "Object": {
+			              "Role": "setup_tecnologia_estoque.stock_qty"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "setup_tecnologia_estoques_have_stock_qties"
+			        }
+			      ]
+			    },
+			    "setup_tecnologia_estoque_has_product_id": {
+			      "Binding": {
+			        "ConceptualEntity": "setup_tecnologia estoque"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "setup_tecnologia_estoque": {
+			          "Target": {
+			            "Entity": "setup_tecnologia_estoque"
+			          }
+			        },
+			        "setup_tecnologia_estoque.product_id": {
+			          "Target": {
+			            "Entity": "setup_tecnologia_estoque.product_id"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "setup_tecnologia_estoque"
+			            },
+			            "Object": {
+			              "Role": "setup_tecnologia_estoque.product_id"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "setup_tecnologia_estoques_have_product_ids"
+			        }
+			      ]
+			    },
+			    "setup_tecnologia_cliente_has_zip_code": {
+			      "Binding": {
+			        "ConceptualEntity": "setup_tecnologia clientes"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "setup_tecnologia_cliente": {
+			          "Target": {
+			            "Entity": "setup_tecnologia_cliente"
+			          }
+			        },
+			        "setup_tecnologia_cliente.zip_code": {
+			          "Target": {
+			            "Entity": "setup_tecnologia_cliente.zip_code"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "setup_tecnologia_cliente"
+			            },
+			            "Object": {
+			              "Role": "setup_tecnologia_cliente.zip_code"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "setup_tecnologia_clientes_have_zip_codes"
+			        }
+			      ]
+			    },
+			    "setup_tecnologia_cliente_has_city": {
+			      "Binding": {
+			        "ConceptualEntity": "setup_tecnologia clientes"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "setup_tecnologia_cliente": {
+			          "Target": {
+			            "Entity": "setup_tecnologia_cliente"
+			          }
+			        },
+			        "setup_tecnologia_cliente.city": {
+			          "Target": {
+			            "Entity": "setup_tecnologia_cliente.city"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "setup_tecnologia_cliente"
+			            },
+			            "Object": {
+			              "Role": "setup_tecnologia_cliente.city"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "setup_tecnologia_clientes_have_cities"
+			        }
+			      ]
+			    },
+			    "setup_tecnologia_cliente_has_address": {
+			      "Binding": {
+			        "ConceptualEntity": "setup_tecnologia clientes"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "setup_tecnologia_cliente": {
+			          "Target": {
+			            "Entity": "setup_tecnologia_cliente"
+			          }
+			        },
+			        "setup_tecnologia_cliente.address": {
+			          "Target": {
+			            "Entity": "setup_tecnologia_cliente.address"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "setup_tecnologia_cliente"
+			            },
+			            "Object": {
+			              "Role": "setup_tecnologia_cliente.address"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "setup_tecnologia_clientes_have_addresses"
+			        }
+			      ]
+			    },
+			    "setup_tecnologia_cliente_has_email": {
+			      "Binding": {
+			        "ConceptualEntity": "setup_tecnologia clientes"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "setup_tecnologia_cliente": {
+			          "Target": {
+			            "Entity": "setup_tecnologia_cliente"
+			          }
+			        },
+			        "setup_tecnologia_cliente.email": {
+			          "Target": {
+			            "Entity": "setup_tecnologia_cliente.email"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "setup_tecnologia_cliente"
+			            },
+			            "Object": {
+			              "Role": "setup_tecnologia_cliente.email"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "setup_tecnologia_clientes_have_emails"
+			        }
+			      ]
+			    },
+			    "setup_tecnologia_cliente_has_phone": {
+			      "Binding": {
+			        "ConceptualEntity": "setup_tecnologia clientes"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "setup_tecnologia_cliente": {
+			          "Target": {
+			            "Entity": "setup_tecnologia_cliente"
+			          }
+			        },
+			        "setup_tecnologia_cliente.phone": {
+			          "Target": {
+			            "Entity": "setup_tecnologia_cliente.phone"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "setup_tecnologia_cliente"
+			            },
+			            "Object": {
+			              "Role": "setup_tecnologia_cliente.phone"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "setup_tecnologia_clientes_have_phones"
+			        }
+			      ]
+			    },
+			    "setup_tecnologia_cliente_has_register_number": {
+			      "Binding": {
+			        "ConceptualEntity": "setup_tecnologia clientes"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "setup_tecnologia_cliente": {
+			          "Target": {
+			            "Entity": "setup_tecnologia_cliente"
+			          }
+			        },
+			        "setup_tecnologia_cliente.register_number": {
+			          "Target": {
+			            "Entity": "setup_tecnologia_cliente.register_number"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "setup_tecnologia_cliente"
+			            },
+			            "Object": {
+			              "Role": "setup_tecnologia_cliente.register_number"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "setup_tecnologia_clientes_have_register_numbers"
+			        }
+			      ]
+			    },
+			    "setup_tecnologia_cliente_has_name": {
+			      "Binding": {
+			        "ConceptualEntity": "setup_tecnologia clientes"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "setup_tecnologia_cliente": {
+			          "Target": {
+			            "Entity": "setup_tecnologia_cliente"
+			          }
+			        },
+			        "setup_tecnologia_cliente.name": {
+			          "Target": {
+			            "Entity": "setup_tecnologia_cliente.name"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "setup_tecnologia_cliente"
+			            },
+			            "Object": {
+			              "Role": "setup_tecnologia_cliente.name"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "setup_tecnologia_clientes_have_names"
+			        },
+			        {
+			          "Name": {
+			            "Subject": {
+			              "Role": "setup_tecnologia_cliente"
+			            },
+			            "Name": {
+			              "Role": "setup_tecnologia_cliente.name"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "names_are_names_IDs_of_setup_tecnologia_clientes"
+			        }
+			      ]
+			    },
+			    "setup_tecnologia_cliente_has_id": {
+			      "Binding": {
+			        "ConceptualEntity": "setup_tecnologia clientes"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "setup_tecnologia_cliente": {
+			          "Target": {
+			            "Entity": "setup_tecnologia_cliente"
+			          }
+			        },
+			        "setup_tecnologia_cliente.id": {
+			          "Target": {
+			            "Entity": "setup_tecnologia_cliente.id"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "setup_tecnologia_cliente"
+			            },
+			            "Object": {
+			              "Role": "setup_tecnologia_cliente.id"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "setup_tecnologia_clientes_have_ids"
+			        },
+			        {
+			          "Name": {
+			            "Subject": {
+			              "Role": "setup_tecnologia_cliente"
+			            },
+			            "Name": {
+			              "Role": "setup_tecnologia_cliente.id"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ids_are_names_IDs_of_setup_tecnologia_clientes"
+			        }
+			      ]
+			    },
+			    "setup_tecnologia_cliente_in_complete_address": {
+			      "Binding": {
+			        "ConceptualEntity": "setup_tecnologia clientes"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "setup_tecnologia_cliente": {
+			          "Target": {
+			            "Entity": "setup_tecnologia_cliente"
+			          }
+			        },
+			        "setup_tecnologia_cliente.complete_address": {
+			          "Target": {
+			            "Entity": "setup_tecnologia_cliente.complete_address"
+			          }
+			        }
+			      },
+			      "SemanticSlots": {
+			        "Where": {
+			          "Role": "setup_tecnologia_cliente.complete_address"
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "setup_tecnologia_cliente"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "setup_tecnologia_cliente.complete_address"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "setup_tecnologia_clientes_are_in_complete_addresses"
+			        }
+			      ]
+			    },
+			    "setup_tecnologia_cliente_in_country": {
+			      "Binding": {
+			        "ConceptualEntity": "setup_tecnologia clientes"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "setup_tecnologia_cliente": {
+			          "Target": {
+			            "Entity": "setup_tecnologia_cliente"
+			          }
+			        },
+			        "setup_tecnologia_cliente.country": {
+			          "Target": {
+			            "Entity": "setup_tecnologia_cliente.country"
+			          }
+			        }
+			      },
+			      "SemanticSlots": {
+			        "Where": {
+			          "Role": "setup_tecnologia_cliente.country"
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "setup_tecnologia_cliente"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "setup_tecnologia_cliente.country"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "setup_tecnologia_clientes_are_in_countries"
+			        }
+			      ]
+			    },
+			    "setup_tecnologia_cliente_in_state": {
+			      "Binding": {
+			        "ConceptualEntity": "setup_tecnologia clientes"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "setup_tecnologia_cliente": {
+			          "Target": {
+			            "Entity": "setup_tecnologia_cliente"
+			          }
+			        },
+			        "setup_tecnologia_cliente.state": {
+			          "Target": {
+			            "Entity": "setup_tecnologia_cliente.state"
+			          }
+			        }
+			      },
+			      "SemanticSlots": {
+			        "Where": {
+			          "Role": "setup_tecnologia_cliente.state"
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "setup_tecnologia_cliente"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "setup_tecnologia_cliente.state"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "setup_tecnologia_clientes_are_in_states"
+			        }
+			      ]
+			    },
+			    "setup_tecnologia_fornecedore_in_zip_code": {
+			      "Binding": {
+			        "ConceptualEntity": "setup_tecnologia fornecedores"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "setup_tecnologia_fornecedore": {
+			          "Target": {
+			            "Entity": "setup_tecnologia_fornecedore"
+			          }
+			        },
+			        "setup_tecnologia_fornecedore.zip_code": {
+			          "Target": {
+			            "Entity": "setup_tecnologia_fornecedore.zip_code"
+			          }
+			        }
+			      },
+			      "SemanticSlots": {
+			        "Where": {
+			          "Role": "setup_tecnologia_fornecedore.zip_code"
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "setup_tecnologia_fornecedore"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "setup_tecnologia_fornecedore.zip_code"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "setup_tecnologia_fornecedores_are_in_zip_codes"
+			        }
+			      ]
+			    },
+			    "setup_tecnologia_fornecedore_in_city": {
+			      "Binding": {
+			        "ConceptualEntity": "setup_tecnologia fornecedores"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "setup_tecnologia_fornecedore": {
+			          "Target": {
+			            "Entity": "setup_tecnologia_fornecedore"
+			          }
+			        },
+			        "setup_tecnologia_fornecedore.city": {
+			          "Target": {
+			            "Entity": "setup_tecnologia_fornecedore.city"
+			          }
+			        }
+			      },
+			      "SemanticSlots": {
+			        "Where": {
+			          "Role": "setup_tecnologia_fornecedore.city"
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "setup_tecnologia_fornecedore"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "setup_tecnologia_fornecedore.city"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "setup_tecnologia_fornecedores_are_in_cities"
+			        }
+			      ]
+			    },
+			    "setup_tecnologia_fornecedore_in_address": {
+			      "Binding": {
+			        "ConceptualEntity": "setup_tecnologia fornecedores"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "setup_tecnologia_fornecedore": {
+			          "Target": {
+			            "Entity": "setup_tecnologia_fornecedore"
+			          }
+			        },
+			        "setup_tecnologia_fornecedore.address": {
+			          "Target": {
+			            "Entity": "setup_tecnologia_fornecedore.address"
+			          }
+			        }
+			      },
+			      "SemanticSlots": {
+			        "Where": {
+			          "Role": "setup_tecnologia_fornecedore.address"
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "setup_tecnologia_fornecedore"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "setup_tecnologia_fornecedore.address"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "setup_tecnologia_fornecedores_are_in_addresses"
+			        }
+			      ]
+			    },
+			    "setup_tecnologia_cliente_in_zip_code": {
+			      "Binding": {
+			        "ConceptualEntity": "setup_tecnologia clientes"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "setup_tecnologia_cliente": {
+			          "Target": {
+			            "Entity": "setup_tecnologia_cliente"
+			          }
+			        },
+			        "setup_tecnologia_cliente.zip_code": {
+			          "Target": {
+			            "Entity": "setup_tecnologia_cliente.zip_code"
+			          }
+			        }
+			      },
+			      "SemanticSlots": {
+			        "Where": {
+			          "Role": "setup_tecnologia_cliente.zip_code"
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "setup_tecnologia_cliente"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "setup_tecnologia_cliente.zip_code"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "setup_tecnologia_clientes_are_in_zip_codes"
+			        }
+			      ]
+			    },
+			    "setup_tecnologia_cliente_in_city": {
+			      "Binding": {
+			        "ConceptualEntity": "setup_tecnologia clientes"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "setup_tecnologia_cliente": {
+			          "Target": {
+			            "Entity": "setup_tecnologia_cliente"
+			          }
+			        },
+			        "setup_tecnologia_cliente.city": {
+			          "Target": {
+			            "Entity": "setup_tecnologia_cliente.city"
+			          }
+			        }
+			      },
+			      "SemanticSlots": {
+			        "Where": {
+			          "Role": "setup_tecnologia_cliente.city"
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "setup_tecnologia_cliente"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "setup_tecnologia_cliente.city"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "setup_tecnologia_clientes_are_in_cities"
+			        }
+			      ]
+			    },
+			    "setup_tecnologia_cliente_in_address": {
+			      "Binding": {
+			        "ConceptualEntity": "setup_tecnologia clientes"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "setup_tecnologia_cliente": {
+			          "Target": {
+			            "Entity": "setup_tecnologia_cliente"
+			          }
+			        },
+			        "setup_tecnologia_cliente.address": {
+			          "Target": {
+			            "Entity": "setup_tecnologia_cliente.address"
+			          }
+			        }
+			      },
+			      "SemanticSlots": {
+			        "Where": {
+			          "Role": "setup_tecnologia_cliente.address"
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "setup_tecnologia_cliente"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "setup_tecnologia_cliente.address"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "setup_tecnologia_clientes_are_in_addresses"
+			        }
+			      ]
+			    },
+			    "setup_tecnologia_estoque_is_updated_on_updated_at": {
+			      "Binding": {
+			        "ConceptualEntity": "setup_tecnologia estoque"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "setup_tecnologia_estoque": {
+			          "Target": {
+			            "Entity": "setup_tecnologia_estoque"
+			          }
+			        },
+			        "setup_tecnologia_estoque.updated_at": {
+			          "Target": {
+			            "Entity": "setup_tecnologia_estoque.updated_at"
+			          }
+			        }
+			      },
+			      "SemanticSlots": {
+			        "When": {
+			          "Role": "setup_tecnologia_estoque.updated_at"
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Verb": {
+			            "Verbs": [
+			              {
+			                "update": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "setup_tecnologia_estoque"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.9,
+			          "ID": "setup_tecnologia_estoques_are_updated_on_updated_at"
+			        }
+			      ]
+			    },
+			    "setup_tecnologia_venda_sale_date_hierarquia_de_data_has_setup_tecnologia_venda_sale_date_ano": {
+			      "Binding": {
+			        "ConceptualEntity": "setup_tecnologia vendas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "setup_tecnologia_venda.sale_date.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "setup_tecnologia_venda.sale_date.hierarquia_de_data"
+			          }
+			        },
+			        "setup_tecnologia_venda.sale_date.ano": {
+			          "Target": {
+			            "Entity": "setup_tecnologia_venda.sale_date.ano"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "setup_tecnologia_venda.sale_date.hierarquia_de_data"
+			            },
+			            "Object": {
+			              "Role": "setup_tecnologia_venda.sale_date.ano"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hierarquia_de_data_have_anos1"
+			        }
+			      ]
+			    },
+			    "setup_tecnologia_venda_sale_date_hierarquia_de_data_has_setup_tecnologia_venda_sale_date_trimestre": {
+			      "Binding": {
+			        "ConceptualEntity": "setup_tecnologia vendas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "setup_tecnologia_venda.sale_date.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "setup_tecnologia_venda.sale_date.hierarquia_de_data"
+			          }
+			        },
+			        "setup_tecnologia_venda.sale_date.trimestre": {
+			          "Target": {
+			            "Entity": "setup_tecnologia_venda.sale_date.trimestre"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "setup_tecnologia_venda.sale_date.hierarquia_de_data"
+			            },
+			            "Object": {
+			              "Role": "setup_tecnologia_venda.sale_date.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hierarquia_de_data_have_trimestres1"
+			        }
+			      ]
+			    },
+			    "setup_tecnologia_venda_sale_date_hierarquia_de_data_has_setup_tecnologia_venda_sale_date_mê": {
+			      "Binding": {
+			        "ConceptualEntity": "setup_tecnologia vendas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "setup_tecnologia_venda.sale_date.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "setup_tecnologia_venda.sale_date.hierarquia_de_data"
+			          }
+			        },
+			        "setup_tecnologia_venda.sale_date.mê": {
+			          "Target": {
+			            "Entity": "setup_tecnologia_venda.sale_date.mê"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "setup_tecnologia_venda.sale_date.hierarquia_de_data"
+			            },
+			            "Object": {
+			              "Role": "setup_tecnologia_venda.sale_date.mê"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hierarquia_de_data_have_mê1"
+			        }
+			      ]
+			    },
+			    "setup_tecnologia_venda_sale_date_hierarquia_de_data_has_setup_tecnologia_venda_sale_date_dia": {
+			      "Binding": {
+			        "ConceptualEntity": "setup_tecnologia vendas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "setup_tecnologia_venda.sale_date.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "setup_tecnologia_venda.sale_date.hierarquia_de_data"
+			          }
+			        },
+			        "setup_tecnologia_venda.sale_date.dia": {
+			          "Target": {
+			            "Entity": "setup_tecnologia_venda.sale_date.dia"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "setup_tecnologia_venda.sale_date.hierarquia_de_data"
+			            },
+			            "Object": {
+			              "Role": "setup_tecnologia_venda.sale_date.dia"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hierarquia_de_data_have_dias1"
+			        }
+			      ]
+			    },
+			    "setup_tecnologia_venda_sale_date_ano_has_setup_tecnologia_venda_sale_date_trimestre": {
+			      "Binding": {
+			        "ConceptualEntity": "setup_tecnologia vendas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "setup_tecnologia_venda.sale_date.ano": {
+			          "Target": {
+			            "Entity": "setup_tecnologia_venda.sale_date.ano"
+			          }
+			        },
+			        "setup_tecnologia_venda.sale_date.trimestre": {
+			          "Target": {
+			            "Entity": "setup_tecnologia_venda.sale_date.trimestre"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "setup_tecnologia_venda.sale_date.ano"
+			            },
+			            "Object": {
+			              "Role": "setup_tecnologia_venda.sale_date.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "anos_have_trimestres1"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "setup_tecnologia_venda.sale_date.trimestre"
+			            },
+			            "Object": {
+			              "Role": "setup_tecnologia_venda.sale_date.ano"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_have_anos1"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "setup_tecnologia_venda.sale_date.trimestre"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "setup_tecnologia_venda.sale_date.ano"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_are_in_anos1"
+			        }
+			      ]
+			    },
+			    "setup_tecnologia_venda_sale_date_trimestre_has_setup_tecnologia_venda_sale_date_mê": {
+			      "Binding": {
+			        "ConceptualEntity": "setup_tecnologia vendas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "setup_tecnologia_venda.sale_date.trimestre": {
+			          "Target": {
+			            "Entity": "setup_tecnologia_venda.sale_date.trimestre"
+			          }
+			        },
+			        "setup_tecnologia_venda.sale_date.mê": {
+			          "Target": {
+			            "Entity": "setup_tecnologia_venda.sale_date.mê"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "setup_tecnologia_venda.sale_date.trimestre"
+			            },
+			            "Object": {
+			              "Role": "setup_tecnologia_venda.sale_date.mê"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_have_mê1"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "setup_tecnologia_venda.sale_date.mê"
+			            },
+			            "Object": {
+			              "Role": "setup_tecnologia_venda.sale_date.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "mê_have_trimestres1"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "setup_tecnologia_venda.sale_date.mê"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "setup_tecnologia_venda.sale_date.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "mê_are_in_trimestres1"
+			        }
+			      ]
+			    },
+			    "setup_tecnologia_venda_sale_date_mê_has_setup_tecnologia_venda_sale_date_dia": {
+			      "Binding": {
+			        "ConceptualEntity": "setup_tecnologia vendas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "setup_tecnologia_venda.sale_date.mê": {
+			          "Target": {
+			            "Entity": "setup_tecnologia_venda.sale_date.mê"
+			          }
+			        },
+			        "setup_tecnologia_venda.sale_date.dia": {
+			          "Target": {
+			            "Entity": "setup_tecnologia_venda.sale_date.dia"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "setup_tecnologia_venda.sale_date.mê"
+			            },
+			            "Object": {
+			              "Role": "setup_tecnologia_venda.sale_date.dia"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "mê_have_dias1"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "setup_tecnologia_venda.sale_date.dia"
+			            },
+			            "Object": {
+			              "Role": "setup_tecnologia_venda.sale_date.mê"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dias_have_mê1"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "setup_tecnologia_venda.sale_date.dia"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "setup_tecnologia_venda.sale_date.mê"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dias_are_in_mê1"
+			        }
+			      ]
+			    }
+			  }
+			}
+		contentType: json
+

@@ -1,0 +1,58 @@
+table 'setup_tecnologia produtos'
+	lineageTag: e952571b-a68c-4d71-8799-fbe740eb84d1
+
+	column product_id
+		dataType: int64
+		formatString: 0
+		lineageTag: 3fb2f657-5e40-45fe-814d-f7c8d3729e3d
+		summarizeBy: none
+		sourceColumn: product_id
+
+		annotation SummarizationSetBy = Automatic
+
+	column product_name
+		dataType: string
+		lineageTag: 9b8bd4d6-bf61-4f6c-863b-4cc32bd456e6
+		summarizeBy: none
+		sourceColumn: product_name
+
+		annotation SummarizationSetBy = Automatic
+
+	column category
+		dataType: string
+		lineageTag: 42fa2399-9690-4bf5-8e79-a2b878493440
+		summarizeBy: none
+		sourceColumn: category
+
+		annotation SummarizationSetBy = Automatic
+
+	column value
+		dataType: double
+		lineageTag: 750559c8-289d-45e8-b567-ae010df44679
+		summarizeBy: none
+		sourceColumn: value
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column supplier_id
+		dataType: int64
+		formatString: 0
+		lineageTag: fe9476ca-28be-4829-a87f-b889bf0105d8
+		summarizeBy: none
+		sourceColumn: supplier_id
+
+		annotation SummarizationSetBy = Automatic
+
+	partition 'setup_tecnologia produtos' = m
+		mode: import
+		source =
+				let
+				    Fonte = MySQL.Database("localhost", "setup_tecnologia", [ReturnSingleDatabase=true]),
+				    setup_tecnologia_produtos = Fonte{[Schema="setup_tecnologia",Item="produtos"]}[Data]
+				in
+				    setup_tecnologia_produtos
+
+	annotation PBI_ResultType = Table
+

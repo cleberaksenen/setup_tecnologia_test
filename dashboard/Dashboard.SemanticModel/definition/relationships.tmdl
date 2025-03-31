@@ -1,0 +1,43 @@
+relationship 3ddbed21-bacf-4651-8cc0-8037d94b4643
+	joinOnDateBehavior: datePartOnly
+	fromColumn: 'setup_tecnologia estoque'.updated_at
+	toColumn: LocalDateTable_408f2583-372a-414d-871b-126cb1cd1c05.Date
+
+relationship 68f0f48f-0bae-41e1-98b8-eb607937195b
+	joinOnDateBehavior: datePartOnly
+	fromColumn: 'setup_tecnologia vendas'.sale_date
+	toColumn: LocalDateTable_1e3e2618-a4ac-4717-8b5f-0c37cbac7748.Date
+
+relationship d2d99018-731f-4306-98f2-bf907cc1dd04
+	fromColumn: 'setup_tecnologia estoque'.supplier_id
+	toColumn: 'setup_tecnologia fornecedores'.supplier_id
+
+	annotation PBI_IsFromSource = FS
+
+relationship 695c314b-6b6b-4cf2-acee-a6b1402500ad
+	crossFilteringBehavior: bothDirections
+	fromCardinality: one
+	fromColumn: 'setup_tecnologia produtos'.product_id
+	toColumn: 'setup_tecnologia estoque'.product_id
+
+	annotation PBI_IsFromSource = FS
+
+relationship 1c54929b-6798-41ef-9a0a-8e94455a740b
+	isActive: false
+	fromColumn: 'setup_tecnologia produtos'.supplier_id
+	toColumn: 'setup_tecnologia fornecedores'.supplier_id
+
+	annotation PBI_IsFromSource = FS
+
+relationship 42766bd8-fa12-4da5-877e-07573847274f
+	fromColumn: 'setup_tecnologia vendas'.client_id
+	toColumn: 'setup_tecnologia clientes'.id
+
+	annotation PBI_IsFromSource = FS
+
+relationship 0aca2b8f-7414-45ff-bf4a-811067f89d98
+	fromColumn: 'setup_tecnologia vendas'.product_id
+	toColumn: 'setup_tecnologia produtos'.product_id
+
+	annotation PBI_IsFromSource = FS
+

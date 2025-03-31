@@ -1,0 +1,59 @@
+table 'setup_tecnologia estoque'
+	lineageTag: d869f6f8-e409-461a-b216-55ed767f6a22
+
+	column product_id
+		dataType: int64
+		formatString: 0
+		lineageTag: 615bc0a8-a92e-4b2c-ab35-aa390c26bdaa
+		summarizeBy: none
+		sourceColumn: product_id
+
+		annotation SummarizationSetBy = Automatic
+
+	column stock_qty
+		dataType: int64
+		formatString: 0
+		lineageTag: cbd1df76-f5b8-4932-b82e-0505787ffbab
+		summarizeBy: sum
+		sourceColumn: stock_qty
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isDecimal":true}
+
+	column updated_at
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: 3f4a3c12-661e-4121-adb2-29bb79f4c033
+		summarizeBy: none
+		sourceColumn: updated_at
+
+		variation Variation
+			isDefault
+			relationship: 3ddbed21-bacf-4651-8cc0-8037d94b4643
+			defaultHierarchy: LocalDateTable_408f2583-372a-414d-871b-126cb1cd1c05.'Hierarquia de datas'
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column supplier_id
+		dataType: int64
+		formatString: 0
+		lineageTag: 9126e8af-d7f1-42a8-9964-812d1498aa4f
+		summarizeBy: none
+		sourceColumn: supplier_id
+
+		annotation SummarizationSetBy = Automatic
+
+	partition 'setup_tecnologia estoque' = m
+		mode: import
+		source =
+				let
+				    Fonte = MySQL.Database("localhost", "setup_tecnologia", [ReturnSingleDatabase=true]),
+				    setup_tecnologia_estoque = Fonte{[Schema="setup_tecnologia",Item="estoque"]}[Data]
+				in
+				    setup_tecnologia_estoque
+
+	annotation PBI_ResultType = Table
+

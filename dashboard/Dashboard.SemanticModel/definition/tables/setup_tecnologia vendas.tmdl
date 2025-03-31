@@ -1,0 +1,160 @@
+table 'setup_tecnologia vendas'
+	lineageTag: 2897b552-6ebc-4238-a3c2-6e0af5f91707
+
+	column id
+		dataType: int64
+		formatString: 0
+		lineageTag: 2bb1a0fc-122c-4cab-8c47-e024978b5145
+		summarizeBy: sum
+		sourceColumn: id
+
+		annotation SummarizationSetBy = Automatic
+
+	column client_id
+		dataType: int64
+		formatString: 0
+		lineageTag: 3057e296-0005-4e91-abf8-d70c9b0a46fe
+		summarizeBy: none
+		sourceColumn: client_id
+
+		annotation SummarizationSetBy = Automatic
+
+	column product_id
+		dataType: int64
+		formatString: 0
+		lineageTag: 741deaa3-a7a2-4b26-b7e6-6dbc8bf3a068
+		summarizeBy: none
+		sourceColumn: product_id
+
+		annotation SummarizationSetBy = Automatic
+
+	column quantity
+		dataType: int64
+		formatString: 0
+		lineageTag: bcba2d09-84d1-4e5d-b623-db838ca8e98b
+		summarizeBy: sum
+		sourceColumn: quantity
+
+		annotation SummarizationSetBy = Automatic
+
+	column sale_date
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: 97b35b70-078b-40a3-a475-3c5f48e24917
+		summarizeBy: none
+		sourceColumn: sale_date
+
+		variation Variation
+			isDefault
+			relationship: 68f0f48f-0bae-41e1-98b8-eb607937195b
+			defaultHierarchy: LocalDateTable_1e3e2618-a4ac-4717-8b5f-0c37cbac7748.'Hierarquia de datas'
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column total_value
+		dataType: double
+		formatString: "R$"#,0.00;-"R$"#,0.00;"R$"#,0.00
+		lineageTag: fb803b20-8450-4b3d-840c-b50d3493ddb3
+		summarizeBy: sum
+		sourceColumn: total_value
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"currencyCulture":"es-BR"}
+
+	column Ticket_Por_Cliente = ```
+			
+			VAR TotalVendasCliente = 
+			    CALCULATE(
+			        SUM('setup_tecnologia vendas'[total_value]), 
+			        ALLEXCEPT('setup_tecnologia vendas', 'setup_tecnologia vendas'[client_id])
+			    )
+			RETURN
+			TotalVendasCliente
+			```
+		formatString: \$#,0.00;(\$#,0.00);\$#,0.00
+		lineageTag: afee007c-815d-40bc-aec2-f02813b33bf5
+		summarizeBy: sum
+
+		annotation SummarizationSetBy = Automatic
+
+	column Compras_Por_Cliente = ```
+			
+			VAR TotalComprasCliente = 
+			    CALCULATE(
+			        SUM('setup_tecnologia vendas'[quantity]), 
+			        ALLEXCEPT('setup_tecnologia vendas', 'setup_tecnologia vendas'[client_id])
+			    )
+			RETURN
+			TotalComprasCliente
+			```
+		formatString: 0
+		lineageTag: ca7e6de6-845f-43b2-b9a5-3dc51b2f2d18
+		summarizeBy: sum
+
+		annotation SummarizationSetBy = Automatic
+
+	column Faturamento_Por_Categoria = ```
+			
+			VAR FaturamentoCategoria = 
+			    CALCULATE(
+			        SUM('setup_tecnologia vendas'[total_value]), 
+			        ALLEXCEPT('setup_tecnologia vendas', 'setup_tecnologia produtos'[category])
+			    )
+			RETURN
+			FaturamentoCategoria
+			```
+		lineageTag: 17be85c4-5f9a-4eb2-b8f4-9a549e9fa709
+		summarizeBy: sum
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column Faturamento_Por_Fornecedor = ```
+			
+			VAR FaturamentoFornecedor = 
+			    CALCULATE(
+			        SUM('setup_tecnologia vendas'[total_value]), 
+			        ALLEXCEPT('setup_tecnologia vendas', 'setup_tecnologia produtos'[supplier_id])
+			    )
+			RETURN
+			FaturamentoFornecedor
+			```
+		lineageTag: 901041e3-2a3f-42ff-843a-1983e083a3fa
+		summarizeBy: sum
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column Faturamento_Por_Produto = ```
+			
+			VAR FaturamentoPoduto = 
+			    CALCULATE(
+			        SUM('setup_tecnologia vendas'[total_value]), 
+			        ALLEXCEPT('setup_tecnologia vendas', 'setup_tecnologia produtos'[product_name])
+			    )
+			RETURN
+			FaturamentoPoduto
+			```
+		lineageTag: 7844b6dc-6580-4d46-bd47-d6fe2d2e2b64
+		summarizeBy: sum
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	partition 'setup_tecnologia vendas' = m
+		mode: import
+		source =
+				let
+				    Fonte = MySQL.Database("localhost", "setup_tecnologia", [ReturnSingleDatabase=true]),
+				    setup_tecnologia_vendas = Fonte{[Schema="setup_tecnologia",Item="vendas"]}[Data]
+				in
+				    setup_tecnologia_vendas
+
+	annotation PBI_ResultType = Table
+
