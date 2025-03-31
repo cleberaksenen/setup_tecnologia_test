@@ -4,6 +4,9 @@
 
 Este projeto tem como finalidade demonstrar minhas habilidades técnicas e analíticas na criação de uma solução de análise de dados. O foco está em processos de ETL, modelagem de dados, conexão com Power BI e análise exploratória.
 
+#### 🔗 Link para o dashboard: 
+[Visualizar Dashboard no Power BI](https://app.powerbi.com/view?r=eyJrIjoiN2FmMjc4OWItN2JjOC00NTU3LWIzMDItOWMxOWVhMmZlMTg3IiwidCI6IjY5ZjgzNmIxLTU5NzktNDMxMi04ODYyLTEyZjliZmFkOTJjYyJ9)
+
 ## 🛠️ Tecnologias Utilizadas
 
 #### Banco de Dados: MySQL
@@ -40,7 +43,8 @@ Este projeto tem como finalidade demonstrar minhas habilidades técnicas e anal�
       ├── clientes.png
       ├── estoque.png
       ├── fornecedor.png
-      └── vendas.png
+      ├── vendas.png
+      └── bdmysql.png
    ├── novas_colunas_powerbi.txt
    └── Dashboard.pbip
 ├── requirements.txt
